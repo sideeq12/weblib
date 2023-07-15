@@ -73,8 +73,6 @@ export default function Home() {
     <Cards />
     <Review />
     <Mission />
-    <Footer />
-     
     </div>
   )
 }

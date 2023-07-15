@@ -11,6 +11,11 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+          'rail' : 'linear-gradient(to right, #FFA41B, #000000)',
+          // 'curl' : "url('splash.svg')"
+      },
+      fontSize : {
+        '4xl' : '45px'
       },
     },
   },

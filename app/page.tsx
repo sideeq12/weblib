@@ -40,7 +40,7 @@ export default function Home() {
           <p className='mt-3'>In this digital age, convenience is key. Whether you aspire to become a full-stack developer,
              create innovative software applications, Join us today and embark on a path of endless 
              possibilities together</p>
-          <Link href="/" className='bg-rail px-6 py-3 w-fit mt-3 sm:text-sm text-base text-white
+          <Link href="/overview" className='bg-rail px-6 py-3 w-fit mt-3 sm:text-sm text-base text-white
           hover:bg-white hover:text-orange-600 hover:border hover:border-orange-600' >
             Start learning
           </Link>

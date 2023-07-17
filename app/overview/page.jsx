@@ -7,11 +7,11 @@ const Overview = () => {
   return (
     <div className='flex'>
         <Maindrop />
-        <div className='md:pt-32 pl-10'>
+        <div className='md:pt-32 md:pl-10 pl-5 pt-10 pr-5'>
             <h2 className='text-3xl font-bold'>
                Course Overview
             </h2>
-            <div className=' md:w-[650px] mt-10'>
+            <div className=' md:w-[650px] mt-10 text-sm md:text-base '>
             Web development has become an essential skill in today's digital world, and the demand for proficient web developers is constantly on the rise. Whether you're a beginner looking to learn the ropes or an experienced developer seeking to level up your skills, Web Development Mastery is the ultimate teaching platform designed to empower
              and guide you on your journey to becoming a web development expert.      </div>
              <div className=' md:w-[650px] mt-10 mb-10'>

@@ -20,6 +20,8 @@ const Overview = () => {
                 Our purpose in this course is to make the content very 
                friendly and familiar inorder to ease your learning progress by connecting all 
                the fundamental concepts.`  } />
+            <Banner info={`HTML (HyperText Markup Language) is the standard markup language used to create web pages. It provides the structure and content of a webpage and uses tags to define elements within the page. The "Hello, World!" section is a simple example used to introduce beginners to HTML coding. It's a tradition in programming to start with this basic example to
+             get familiar with the syntax and how things work. Let's dive in!`} />
             <Code>
                <span className='text-orange-300'>{"<h1>"}</span> Hello World
                <span className='text-orange-300'>{" </h1>"}</span> 

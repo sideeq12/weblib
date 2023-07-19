@@ -1,5 +1,5 @@
 import React from 'react'
-import Maindrop from "../../components/Maindrop"
+import Maindrop from '@/components/Maindrop'
 import Image from 'next/image'
 import Banner from '@/components/banner'
 import Code from '@/components/code'

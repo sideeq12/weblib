@@ -1,6 +1,8 @@
 import React from 'react'
 import Maindrop from "../../components/Maindrop"
 import Image from 'next/image'
+import Banner from "../../components/banner"
+import Code from "../../components/code"
 // import full from "./web.png"
 
 const Overview = () => {
@@ -8,13 +10,20 @@ const Overview = () => {
     <div className='flex bg-white'>
         <Maindrop />
         <div className='md:pt-32 md:pl-10 pl-5 pt-10 pr-5'>
+
             <h2 className='text-3xl font-bold'>
                Links in HTML
             </h2>
-            <div className=' md:w-[650px] mt-10 text-sm md:text-base '>
-               In this section, you are going to write your first line of code <code className='text-slate-400'> Hello world </code> 
-               and display it on your browser. Our purpose in this course is to make the content very 
-               friendly and familiar inorder to ease your learning progress by connecting all the fundamental concepts.     </div>
+
+            <Banner info={ `In this section, you are going to write your first line of code
+               and display it on your browser.
+                Our purpose in this course is to make the content very 
+               friendly and familiar inorder to ease your learning progress by connecting all 
+               the fundamental concepts.`  } />
+            <Code msg={" test the layer "}>
+               <span className='text-orange-500'> {'<h1>'}</span>
+            </Code>
+
              <div className=' md:w-[650px] mt-10 mb-10'>
              We offer a comprehensive curriculum that covers
               all essential aspects of web development, catering to learners of all 

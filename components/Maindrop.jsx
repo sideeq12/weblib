@@ -53,13 +53,13 @@ const Maindrop = () => {
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/introduction">Hello world</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/Basic-elements">Basic Elements</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/Links">Links</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/">List</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Images Tag</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">First task review</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Tables</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Forms</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Audio and video tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Iframes</Link> 
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/List">List</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/Image-tags">Images Tag</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/first-task">First task review</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/tables">Tables</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/forms">Forms</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/audio-and-video">Audio and video tags</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/iframes">Iframes</Link> 
             </div> : null}
          </div>
 

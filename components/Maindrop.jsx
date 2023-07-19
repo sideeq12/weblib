@@ -50,16 +50,16 @@ const Maindrop = () => {
             }</label> </button>
             { isActive ? 
             <div className='mt-5 mr-9 ml-8 flex flex-col gap-4'>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Html tags</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Hello world</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/">Basic Elements</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/">Links</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/">List</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Images Tag</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">First task review</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Tables</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Forms</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Audio and video tags</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Iframes</Link>
             </div> : null}
          </div>
 

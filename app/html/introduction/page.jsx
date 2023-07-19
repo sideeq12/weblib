@@ -4,10 +4,11 @@ import Image from 'next/image'
 import Banner from '@/components/banner'
 import Code from '@/components/code'
 import full from "./helloWorld.png"
+import Link from 'next/link'
 
 const Overview = () => {
   return (
-    <div className='flex bg-white'>
+    <div className='flex bg-white pb-3 md:pb-10'>
         <Maindrop />
         <div className='md:pt-32 md:pl-10 pl-5 pt-10 pr-5'>
             <h2 className='text-3xl font-bold'>
@@ -56,28 +57,11 @@ const Overview = () => {
              The output of this HTML code will be a webpage displaying the text 
              "Hello, World!" in a large font size as the main heading
              </div>
-             
-
-             <div className='mt-10'>
-                <h3>Key features</h3>
-                <p className='md:w-[650px] mt-10 mb-10'>
-                Interactive Learning: Engaging and interactive learning
-                 experiences are at the core of the platform. Through a combination of video tutorials, quizzes, coding exercises, and real-world projects, learners can apply their knowledge in a practical setting. The platform provides a sandbox environment for learners to experiment with code and 
-                see the immediate results of their HTML and CSS implementations.
-                </p>
-                <p className='md:w-[650px] mt-10 mb-10'>
-                Personalized Learning Paths: The platform recognizes that each learner has unique goals and learning preferences. It offers personalized learning paths that adapt to the individual's progress, allowing them to learn at their own pace. Learners can also set goals, track their progress, 
-                and receive tailored recommendations to optimize their learning journey.
-                </p>
-                <p className='md:w-[650px] mt-10 mb-10'>
-                Industry-Relevant Projects: To reinforce the learned concepts, the platform offers hands-on projects inspired by real-world scenarios. These projects provide learners with practical experience in building responsive websites, optimizing performance, and implementing best practices.
-                 By working on these projects, learners can build a 
-                </p>
-                <p className='md:w-[650px] mt-10 mb-10'>
-                Mobile-Friendly Learning: Recognizing the importance of mobile devices in today's digital landscape, the platform is optimized for mobile learning. 
-                </p>
-
-             </div>
+             <Banner info={"This basic example demonstrates the fundamental  structure of an HTML document, including the DOCTYPE declaration, HTML, head, and body elements, and shows how to create headings and paragraphs. From here, you can start building more complex web pages by adding additional HTML elements and styling with CSS."} />
+               <div>
+                  <Link href="/">prev</Link>
+                  <Link href="/">next</Link>
+               </div>
         </div>
     </div>
   )

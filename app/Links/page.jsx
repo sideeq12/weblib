@@ -20,8 +20,9 @@ const Overview = () => {
                 Our purpose in this course is to make the content very 
                friendly and familiar inorder to ease your learning progress by connecting all 
                the fundamental concepts.`  } />
-            <Code msg={" test the layer "}>
-               <span className='text-orange-500'> {'<h1>'}</span>
+            <Code>
+               <span className='text-orange-300'>{"<h1>"}</span> Hello World
+               <span className='text-orange-300'>{" </h1>"}</span> 
             </Code>
 
              <div className=' md:w-[650px] mt-10 mb-10'>

@@ -19,7 +19,7 @@ const Overview = () => {
                friendly and familiar inorder to ease your learning progress by connecting all 
                the fundamental concepts.`  } />
             <Code msg={" test the layer "}>
-               <span className='text-orange-500'> {'<h1>'}</span>
+            
             </Code>
              <div className=' md:w-[650px] mt-10 mb-10'>
              We offer a comprehensive curriculum that covers

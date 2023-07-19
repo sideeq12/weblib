@@ -60,7 +60,7 @@ const Overview = () => {
              <Banner info={"This basic example demonstrates the fundamental  structure of an HTML document, including the DOCTYPE declaration, HTML, head, and body elements, and shows how to create headings and paragraphs. From here, you can start building more complex web pages by adding additional HTML elements and styling with CSS."} />
                <div>
                   <Link href="/">prev</Link>
-                  <Link href="/">next</Link>
+                  <Link href="/html/Basic-element">next</Link>
                </div>
         </div>
     </div>

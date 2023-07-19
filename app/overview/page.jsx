@@ -5,7 +5,7 @@ import full from "./web.png"
 
 const Overview = () => {
   return (
-    <div className='flex'>
+    <div className='flex bg-white'>
         <Maindrop />
         <div className='md:pt-32 md:pl-10 pl-5 pt-10 pr-5'>
             <h2 className='text-3xl font-bold'>

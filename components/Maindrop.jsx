@@ -59,7 +59,7 @@ const Maindrop = () => {
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Tables</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Forms</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Audio and video tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Iframes</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Iframes</Link> 
             </div> : null}
          </div>
 

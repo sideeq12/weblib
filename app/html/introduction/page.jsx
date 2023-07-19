@@ -41,10 +41,21 @@ const Overview = () => {
                 <Image className='border border-black' src={full} alt='image layout'  width={400} height={400}/> 
              </div>
             <p className='my-3 md:my-6'>Code explanation</p>
-             <ul>
+             <ul className='flex flex-col gap-3 w-[700px]'>
                <li> DOCTYPE html: This is the document type declaration and specifies that the document is an HTML5 document.
                 It helps the browser to understand the version of HTML being used</li>
+                <li> html: This tag indicates the beginning of an HTML document. Everything within the 
+                  <span>html</span> tags represents the entire HTML content.</li>
+               <li> head: This section contains meta-information about the HTML document, such as the title
+                   of the page, character encoding, external CSS files, etc.</li>
+               <li>body : : The body tag contains the visible content of the webpage, including text, images, links, etc. 
+                  It represents the content that users see on the browser.</li>
              </ul>
+
+             <div className='my-3 md:my-6'>
+             The output of this HTML code will be a webpage displaying the text 
+             "Hello, World!" in a large font size as the main heading
+             </div>
              
 
              <div className='mt-10'>

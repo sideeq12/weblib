@@ -21,8 +21,8 @@ const Maindrop = () => {
 
   return (<>
         {open ? 
-         <div className='w-9/12 pr-3 md:pr-10 z-10 pos  md:w-3/12 
-         bg-white flex flex-col gap-2 pl-3 md:pl-6 pt-16 pb-10'>
+         <div className='w-9/12 bg-slate-200 text-sm pr-3 md:pr-10 z-10 pos  md:w-3/12 
+         flex flex-col gap-2 pl-3 md:pl-6 pt-16 pb-10'>
             <span onClick={(open)=>setOpen(!open)} className='cursor-pointer ml-auto mr-16'>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
   <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
@@ -38,7 +38,7 @@ const Maindrop = () => {
          <div className=''>
          <button onClick={changeView}
             className='hover:border-l-2 
-            flex pr-3 md:pr-6 py-1 text-xs md:py-3 border border-slate-400 rounded-lg
+            flex pr-3 md:pr-6 py-1 text-sm md:py-3 border border-slate-400 rounded-lg
              hover:border-black w-fit pl-3 md:pl-6 cursor-pointer' 
             >Introduction to HTML<label className='ml-9 mt-1'>{
               !isActive ? <svg xmlns="http://www.w3.org/2000/svg"
@@ -50,9 +50,9 @@ const Maindrop = () => {
             }</label> </button>
             { isActive ? 
             <div className='mt-5 mr-9 ml-8 flex flex-col gap-4'>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Hello world</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/">Basic Elements</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/">Links</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/introduction">Hello world</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/basic-elements">Basic Elements</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/Links">Links</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/">List</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Images Tag</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">First task review</Link>

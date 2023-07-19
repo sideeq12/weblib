@@ -21,7 +21,7 @@ const Maindrop = () => {
 
   return (<>
         {open ? 
-         <div className='w-9/12 bg-slate-200 text-sm pr-3 md:pr-10 z-10 pos  md:w-3/12 
+         <div className='w-9/12 bg-slate-100 text-sm pr-3 md:pr-10 z-10 pos  md:w-3/12 
          flex flex-col gap-2 pl-3 md:pl-6 pt-16 pb-10'>
             <span onClick={(open)=>setOpen(!open)} className='cursor-pointer ml-auto mr-16'>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
@@ -33,7 +33,7 @@ const Maindrop = () => {
             <Link className='hover:border-l-2 
             flex  pr-6 w-11/12 md:py-3 border border-slate-400 rounded-lg
              hover:border-black pl-6 cursor-pointer' 
-             href="/">Overview</Link>
+             href="/overview">Overview</Link>
 
          <div className=''>
          <button onClick={changeView}
@@ -51,7 +51,7 @@ const Maindrop = () => {
             { isActive ? 
             <div className='mt-5 mr-9 ml-8 flex flex-col gap-4'>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/introduction">Hello world</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/basic-elements">Basic Elements</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/Basic-elements">Basic Elements</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/Links">Links</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/">List</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Images Tag</Link>

@@ -9,7 +9,7 @@ const Overview = () => {
         <Maindrop />
         <div className='md:pt-32 md:pl-10 pl-5 pt-10 pr-5'>
             <h2 className='text-3xl font-bold'>
-               Basic elements in HTML
+               Welcome to the first section
             </h2>
             <div className=' md:w-[650px] mt-10 text-sm md:text-base '>
                In this section, you are going to write your first line of code <code className='text-slate-400'> Hello world </code> 

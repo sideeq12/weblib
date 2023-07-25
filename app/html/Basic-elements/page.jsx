@@ -1,7 +1,7 @@
 import React from 'react'
 import Maindrop from '../../../components/Maindrop'
 import Image from 'next/image'
-// import full from "./web.png"
+import full from './head.png'
 
 const Overview = () => {
   return (
@@ -18,10 +18,7 @@ const Overview = () => {
                tags are enclosed within angle brackets. </div>
             
             
-             
-             <div>
-                {/* <Image src={full} alt='image layout'  width={400} height={400}/>  */}
-             </div>
+           
 
              <div className='mt-10 md:w-[650px] flex flex-col gap-2'>
              <div><span className='font-bold'>html : </span> The root element that wraps the entire HTML document. </div>              
@@ -31,6 +28,10 @@ const Overview = () => {
              <div><span className='font-bold'>p : </span>  Represents a paragraph of text. </div>              
              <div><span className='font-bold'>heading {'<h1>, <h2>, <h3>, <h4>, <h5>, <h6>'} : </span> Heading elements to define headings of different levels (from {'<h1>'}  highest importance to lowest importance  {'<h6>'}  ).</div>              
             
+             </div>
+                <h2 className='my-5 text-xl font-bold'>Head tag</h2>
+             <div>
+                <Image src={full} alt='image layout'  width={400} height={400}/> 
              </div>
         </div>
     </div>

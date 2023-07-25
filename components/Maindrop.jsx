@@ -51,7 +51,7 @@ const Maindrop = () => {
             { isActive ? 
             <div className='mt-5 mr-9 ml-8 flex flex-col gap-4'>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/html/introduction">Hello world</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/Basic-elements">Basic Elements</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/html/Basic-elements">Basic Elements</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/Links">Links</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/List">List</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/Image-tags">Images Tag</Link>

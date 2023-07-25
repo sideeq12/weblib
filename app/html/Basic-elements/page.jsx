@@ -4,6 +4,8 @@ import Image from 'next/image'
 import full from './head.png'
 import title from './title.png'
 import body from './body.png'
+import parag from './paragraph.png'
+import pshow from './pshow.png'
 
 const Overview = () => {
   return (
@@ -66,6 +68,39 @@ const Overview = () => {
              </div>
              <div>
                 <Image src={body} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div className='md:w-[650px] my-5 border p-3'>
+             The {'<body>'}  element plays a crucial role in defining the structure and 
+               layout of a web page, and it is where the actual content of the page is 
+               presented to users. When a web page is loaded in a browser, the browser will 
+               render the content within the {'<body>'}   element and display it to the
+                user. It is important to structure the content logically and semantically within the
+               {'<body>'}   element to create accessible and user-friendly web pages.
+             </div>
+             <div className='md:w-[650px] my-5 border p-3'>
+             The  {'<body>'} element plays a crucial role in defining the structure and
+                layout of a web page, and it is where the actual content of the page 
+                is presented to users. When a web page is loaded in a browser, the browser
+                 will render the content within the  {'<body>'}element and display it to the
+                  user. It is important to structure the content logically and semantically within the  {'<body>'}
+                element to create accessible and user-friendly web pages.
+             </div>
+             </div>
+             <div>
+             <h2 className='my-5 text-xl font-bold'>THe paragraph tag</h2>
+             
+             <div className='md:w-[650px] my-5 border p-3'>
+             In HTML, the {'<title>'} element is used to define the title of the web page. 
+               It appears inside the {'<head>'} element and provides a title for the document, 
+               which is displayed in the title bar or tab of the web browser. The text specified within the {'<title>'} element is also used as the default name for bookmarking the page.
+
+             </div>
+             <div>
+                <Image src={parag} alt='image layout'  width={400} height={600}/> 
+             </div>
+             <h1 className='my-5 font-bold'>The output on the browser :</h1>
+             <div>
+                <Image className='border' src={pshow} alt='image layout'  width={400} height={600}/> 
              </div>
              </div>
         </div>

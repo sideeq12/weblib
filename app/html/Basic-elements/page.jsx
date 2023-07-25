@@ -2,6 +2,8 @@ import React from 'react'
 import Maindrop from '../../../components/Maindrop'
 import Image from 'next/image'
 import full from './head.png'
+import title from './title.png'
+import body from './body.png'
 
 const Overview = () => {
   return (
@@ -30,8 +32,41 @@ const Overview = () => {
             
              </div>
                 <h2 className='my-5 text-xl font-bold'>Head tag</h2>
+             
+             <div className='md:w-[650px] my-5 border p-3'>
+             The  {'<head>'} element is used to contain meta-information and 
+               resources related to the document. It typically appears before the  element and includes elements like 
+                {'<title>'},  {'<meta>'},  {'<link>'}, and  {'<script>'}. Here's an example of how the  {'<head>'} element is used in HTML:
+             </div>
              <div>
                 <Image src={full} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div>
+             <h2 className='my-5 text-xl font-bold'>Title tag</h2>
+             
+             <div className='md:w-[650px] my-5 border p-3'>
+             In HTML, the {'<title>'} element is used to define the title of the web page. 
+               It appears inside the {'<head>'} element and provides a title for the document, 
+               which is displayed in the title bar or tab of the web browser. The text specified within the {'<title>'} element is also used as the default name for bookmarking the page.
+
+             </div>
+             <div>
+                <Image src={title} alt='image layout'  width={400} height={400}/> 
+             </div>
+             </div>
+             <div>
+             <h2 className='my-5 text-xl font-bold'>Body tag</h2>
+             
+             <div className='md:w-[650px] my-5 border p-3'>
+             The element is used to define the visible content of a web page. 
+             It represents the main content area and contains all the elements that
+              are directly visible to users when they visit the web page. The  {'<body>'}  
+              element is a child of the
+             {'<html>'}  element and is typically placed after the  {'<head>'}  element in the HTML document.
+             </div>
+             <div>
+                <Image src={body} alt='image layout'  width={400} height={400}/> 
+             </div>
              </div>
         </div>
     </div>

@@ -23,9 +23,14 @@ const Overview = () => {
                 {/* <Image src={full} alt='image layout'  width={400} height={400}/>  */}
              </div>
 
-             <div className='mt-10'>
-               
-
+             <div className='mt-10 md:w-[650px] flex flex-col gap-2'>
+             <div><span className='font-bold'>html : </span> The root element that wraps the entire HTML document. </div>              
+             <div><span className='font-bold'>head : </span>   Contains meta-information about the document, such as the title, character encoding, links to stylesheets, and scripts.</div>              
+             <div><span className='font-bold'>title : </span> Sets the title of the web page, which appears in the browser's title bar or tab.</div>              
+             <div><span className='font-bold'>body : </span> : Encloses the visible content of the web page, including text, images, links, headings, paragraphs, etc. </div>              
+             <div><span className='font-bold'>p : </span>  Represents a paragraph of text. </div>              
+             <div><span className='font-bold'>heading {'<h1>, <h2>, <h3>, <h4>, <h5>, <h6>'} : </span> Heading elements to define headings of different levels (from {'<h1>'}  highest importance to lowest importance  {'<h6>'}  ).</div>              
+            
              </div>
         </div>
     </div>

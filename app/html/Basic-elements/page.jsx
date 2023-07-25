@@ -6,12 +6,15 @@ import title from './title.png'
 import body from './body.png'
 import parag from './paragraph.png'
 import pshow from './pshow.png'
-
+import mybody from './mybody.png'
+import mhead from './hding.png'
+import myhead from './heading.png'
+import Link from 'next/link'
 const Overview = () => {
   return (
     <div className='flex bg-white'>
         <Maindrop />
-        <div className='md:pt-32 md:pl-10 pl-5 pt-10 pr-5'>
+        <div className='md:pt-32 md:pl-10 pl-5 pt-10 pb-8 pr-5'>
             <h2 className='text-3xl font-bold'>
                Basic elements in HTML
             </h2>
@@ -55,6 +58,9 @@ const Overview = () => {
              <div>
                 <Image src={title} alt='image layout'  width={400} height={400}/> 
              </div>
+             <div>
+                {/* <Image src={parag} alt='image layout'  width={400} height={600}/>  */}
+             </div>
              </div>
              <div>
              <h2 className='my-5 text-xl font-bold'>Body tag</h2>
@@ -68,6 +74,9 @@ const Overview = () => {
              </div>
              <div>
                 <Image src={body} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div className='my-5'>
+                <Image className='border' src={mybody} alt='image layout'  width={400} height={600}/> 
              </div>
              <div className='md:w-[650px] my-5 border p-3'>
              The {'<body>'}  element plays a crucial role in defining the structure and 
@@ -103,6 +112,53 @@ const Overview = () => {
                 <Image className='border' src={pshow} alt='image layout'  width={400} height={600}/> 
              </div>
              </div>
+             <div>
+             <h2 className='my-5 text-xl font-bold'>Headings</h2>
+             
+             <div className='md:w-[650px] my-5 border p-3'>
+             In HTML (Hypertext Markup Language), heading tags are used
+              to define headings or titles for sections of a web page. 
+              They range from h1 to h6, where h1 is the highest level of heading
+              (main heading) and h6 is the lowest level (subheading).
+             </div>
+             <div className='md:w-[650px] my-5 border p-3'>
+             
+             In HTML (Hypertext Markup Language), heading tags are used to define headings or titles for sections of a web page. They range from h1 to h6, where h1 is the highest level of heading (main heading) and h6 is the lowest level (subheading).
+
+         <br/> Here's a brief explanation of each heading tag: <br/>
+
+{'<h1>'}: This is the highest-level 
+heading and represents the main heading or title of the page. 
+It's typically used to introduce the overall topic or content of the page. <br/>
+
+{'<h2>'}: This is the second-level heading, used for subheadings or 
+section titles within the page. It's generally used to divide the content into major sections. <br/>
+
+{'<h3>'}: Third-level heading, used for subsections or sub-subheadings. 
+It's useful for breaking down content further within sections. <br/>
+
+{'<h4>'}: Fourth-level heading, used for smaller subsections or sub-sub-subheadings. <br/>
+
+{'<h5>'}: Fifth-level heading, typically used for even smaller divisions within content. <br />
+
+{'<h6>'}: Sixth-level heading, used for the smallest subsections or minor details.
+             </div>
+             <div>
+                <Image src={mhead} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div className='my-5'>
+                <Image className='border' src={myhead} alt='image layout'  width={400} height={600}/> 
+             </div>
+             
+             <div className='md:w-[650px] my-5 border p-3'>
+             When using heading tags, it's essential to maintain a 
+             logical hierarchy to ensure proper document structure and 
+             accessibility for users. Search engines also use these heading tags to understand 
+             the content organization and relevance on a page.
+             </div>
+             </div>
+
+             <Link className='px-10 py-3 my-10 border ' href='/html/' >Next</Link>
         </div>
     </div>
   )

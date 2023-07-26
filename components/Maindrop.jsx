@@ -54,12 +54,12 @@ const Maindrop = () => {
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/html/Basic-elements">Basic Elements</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/html/Links">Links</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/html/List">List</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/Image-tags">Images Tag</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/first-task">First task review</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/tables">Tables</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/forms">Forms</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/audio-and-video">Audio and video tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/iframes">Iframes</Link> 
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/html/Image-tags">Images Tag</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/html/first-task">First task review</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/html/tables">Tables</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/html/forms">Forms</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/html/audio-and-video">Audio and video tags</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/html/iframes">Iframes</Link> 
             </div> : null}
          </div>
 

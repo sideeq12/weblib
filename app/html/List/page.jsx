@@ -5,8 +5,8 @@ import full from "./ul.png"
 import fullist from "./ulist.png"
 import order from "./ol.png"
 import olist from "./order.png"
-import olist from "./order.png"
-import olist from "./order.png"
+import dlist from "./dlist.png"
+import dd from "./dd.png"
 
 const Overview = () => {
   return (
@@ -55,12 +55,16 @@ const Overview = () => {
                   elements, and the definitions are represented by <span className="font-bold">dd</span> (description details) elements. <span className="font-bold">li</span> (list item) element
                 </p>
                 <div>
-                <Image src={order} alt='image layout'  width={400} height={400}/> 
+                <Image src={dlist} alt='image layout'  width={400} height={400}/> 
              </div>
               <div className="my-10">Result on browser</div>
               <div>
-                <Image className='border' src={olist} alt='image layout'  width={400} height={400}/> 
+                <Image className='border' src={dd} alt='image layout'  width={400} height={400}/> 
              </div>
+
+             <div className="my-5 md:w-[700px]">Remember that HTML elements are used to structure the content of a web page, so these list elements help you 
+             organize information in a meaningful and hierarchical manner.</div>
+
 
              </div>
         </div>

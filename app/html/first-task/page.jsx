@@ -6,6 +6,10 @@ import withImg from "./outwith.png"
 import codeimg from "./withimage.png"
 import bio from "./bio.png"
 import biores from "./biores.png"
+import skil from "./skill.png"
+import skillres from "./skillres.png"
+import resume from "./resume.png"
+import resmress from "./ResumeRes.png"
 
 const Overview = () => {
   return (
@@ -55,15 +59,30 @@ const Overview = () => {
                 <p className='md:w-[650px] mt-10 mb-10'>
                   The next thing is to add the skill set <br />
                   <div>
-                     We can achieve this by using the list tag, in this situation , <span className="font-bold">ol </span>
-                      is preferred <br />
+                     We can achieve this by using the list tag, in this situation ,  
+                     <span className="font-bold">ul </span> (Unordered list)            is preferred <br />
                      Check the code below : 
                   </div>
                 </p>
-                <p className='md:w-[650px] mt-10 mb-10'>
-                Mobile-Friendly Learning: Recognizing the importance of mobile devices in today's digital landscape, the platform is optimized for mobile learning. 
-                </p>
 
+             </div>
+             <div className='mt-10'>
+                <Image src={skil} alt='image layout' className='my-10 border'  width={400} height={400}/> 
+                <Image src={skillres} alt='image layout' className='my-10 border'  width={400} height={400}/> 
+               
+                <p className='md:w-[650px] mt-10 mb-10'>
+                  The  last aspect of our portfolio is little bio information<br />
+                  This requires the <span className="font-bold">p</span> (paragraph tag) 
+                  <div>
+                     Check the code below : 
+
+                <Image src={resume} alt='image layout' className='my-10 border'  width={400} height={400}/> 
+                <Image src={resmress} alt='image layout' className='my-10 border'  width={400} height={400}/> 
+               
+                  </div>
+                </p>
+         <div className="my-5">In short, we have been able to build a simple webpage containing user information with just Html, this 
+         can be improved and styled using CSS (Cascading stylesheet) , and would be covered in the later chapters of this course.</div>
              </div>
         </div>
     </div>

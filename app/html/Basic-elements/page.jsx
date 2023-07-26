@@ -158,7 +158,7 @@ It's useful for breaking down content further within sections. <br/>
              </div>
              </div>
 
-             <Link className='px-10 py-3 my-10 border ' href='/html/' >Next</Link>
+             <Link className='px-10 py-3 my-10 border ' href='/html/Links' >Next</Link>
         </div>
     </div>
   )

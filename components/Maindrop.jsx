@@ -53,7 +53,7 @@ const Maindrop = () => {
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/html/introduction">Hello world</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/html/Basic-elements">Basic Elements</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/html/Links">Links</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/List">List</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/html/List">List</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/Image-tags">Images Tag</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/first-task">First task review</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/tables">Tables</Link>

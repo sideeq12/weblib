@@ -61,7 +61,7 @@ const Overview = () => {
                 
              </div>
 
-             <Link className='px-10 py-3 my-10 border ' href='/html/' >Next</Link>
+             <Link className='px-10 py-3 my-10 border ' href='/html/List' >Next</Link>
         </div>
     </div>
   )

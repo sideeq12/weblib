@@ -4,12 +4,15 @@ import Image from 'next/image'
 import full from "./img.png"
 import imgres from './imgres.png'
 import withcode from './withcode.png'
+import without from './without.png'
+import bg from './bg.png'
+import Link from 'next/link'
 
 const Overview = () => {
   return (
     <div className='flex bg-white'>
         <Maindrop />
-        <div className='md:pt-32 md:pl-10 pl-5 pt-10 pr-5'>
+        <div className='md:pt-32 md:pl-10 pl-5 pt-10 pb-10 pr-5'>
             <h2 className='text-3xl font-bold'>
               Images in HTML 
             </h2>
@@ -51,11 +54,17 @@ to define the properties of the image.     </div>
               <div>
                 <Image className='border' src={withcode} alt='image layout'  width={400} height={400}/> 
              </div>
-             <div className="my-5 md:w-[700px]">Remember that HTML elements are used to structure the content of a web page, so these list elements help you 
-             organize information in a meaningful and hierarchical manner.</div>
-
+             <div>
+                <Image className='border my-5' src={without} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div className="my-5 md:w-[700px]">When the name of the image is correct, the ouput will be :
+             </div>
+             <div>
+                <Image className='border my-5' src={bg} alt='image layout'  width={400} height={400}/> 
+             </div>
 
              </div>
+             <Link href='/html/first-task' className='py-3 px-8 border'>Next</Link>
         </div>
     </div>
   )

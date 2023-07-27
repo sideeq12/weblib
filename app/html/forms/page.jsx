@@ -1,5 +1,5 @@
 import React from 'react'
-import Maindrop from "../../components/Maindrop"
+import Maindrop from "../../../components/Maindrop"
 import Image from 'next/image'
 // import full from "./web.png"
 
@@ -11,18 +11,24 @@ const Overview = () => {
             <h2 className='text-3xl font-bold'>
                Welcome to the first section
             </h2>
-            <div className=' md:w-[650px] mt-10 text-sm md:text-base '>
-               In this section, you are going to write your first line of code <code className='text-slate-400'> Hello world </code> 
-               and display it on your browser. Our purpose in this course is to make the content very 
-               friendly and familiar inorder to ease your learning progress by connecting all the fundamental concepts.     </div>
-             <div className=' md:w-[650px] mt-10 mb-10'>
-             We offer a comprehensive curriculum that covers
-              all essential aspects of web development, catering to learners of all 
-              levels. From fundamental concepts like <span className='font-bold'> HTML, CSS,</span> and 
-              <span className='font-bold'>JavaScript</span> to advanced topics such as front-end and back-end frameworks, databases, and server management, the platform provides a structured
-              learning path to ensure you acquire a solid foundation and advanced expertise
-             </div>
-             <p className='mb-10'>Get enough skills to create a responsive design below</p>
+            <div className=' md:w-[650px] mt-10 text-sm md:text-base '>Forms are crucial element
+             that allows users to input and submit data to a web server. Forms are
+              used for a variety of purposes, such as collecting user information, 
+              performing searches, submitting feedback, and much more. When a user fills out 
+              a form and clicks the "Submit" button, 
+            the data is sent to a server for processing or storage. </div>
+
+             <p className='my-5'>To create a form in HTML, you use the
+              <span className="form-bold">form </span> element along with various form-related 
+               elements and attributes. The most commonly used form elements are:</p>
+               <div className='my-5 flex flex-col gap-3'>
+                  <div>
+                     <span className="font-bold">form : </span> This is the main 
+                     container element for the form. It encompasses all the form elements and defines how
+                      the data will be sent to the server.
+                  </div>
+
+               </div>
              <div>
                 {/* <Image src={full} alt='image layout'  width={400} height={400}/>  */}
              </div>

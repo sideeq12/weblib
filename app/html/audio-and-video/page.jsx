@@ -5,6 +5,7 @@ import full from "./audi.png"
 import res from "./audires.png"
 import fim from './vicode.png'
 import vres from './vid.png'
+import correct from './pr.png'
 
 const Overview = () => {
   return (
@@ -50,11 +51,15 @@ const Overview = () => {
                    WebM, and Ogg. Here's an example of how to use the <span className="font-bold">video </span> tag: 
                 </p>
                 <div>
-                <Image src={full} alt='image layout'  width={400} height={400}/> 
+                <Image src={fim} alt='image layout'  width={400} height={400}/> 
              </div>
              <h3>Result on the browser</h3>
                 <div>
-                <Image className='border' src={res} alt='image layout'  width={400} height={400}/> 
+                <Image className='border' src={vres} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <h3>When the correct video name and extension available: </h3>
+                <div>
+                <Image className='border' src={correct} alt='image layout'  width={400} height={400}/> 
              </div>
 
              </div>

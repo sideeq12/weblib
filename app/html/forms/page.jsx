@@ -58,6 +58,15 @@ const Overview = () => {
              <div>
                 <Image className='border my-5' src={fulle} alt='image layout'  width={400} height={400}/> 
              </div>
+             <div className="my-10 md:w-[650px]">
+             In this example, the action attribute of the <sapn className="font-bold">form </sapn> element 
+             defines the URL to which the form data will be sent. The method attribute specifies the 
+               HTTP method to be used for the form submission (commonly "GET" or "POST").
+
+Each input element has a name attribute, which is used to identify the data on the 
+server-side when the form is submitted. The label elements improve accessibility 
+and user experience by associating labels with their corresponding form fields.
+             </div>
 
         </div>
     </div>

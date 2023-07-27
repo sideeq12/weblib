@@ -1,5 +1,5 @@
 import React from 'react'
-import Maindrop from "../../components/Maindrop"
+import Maindrop from "../../../components/Maindrop"
 import Image from 'next/image'
 // import full from "./web.png"
 
@@ -9,18 +9,19 @@ const Overview = () => {
         <Maindrop />
         <div className='md:pt-32 md:pl-10 pl-5 pt-10 pr-5'>
             <h2 className='text-3xl font-bold'>
-               Links in HTML
+               Audio and video tag in HTML 
             </h2>
             <div className=' md:w-[650px] mt-10 text-sm md:text-base '>
-               In this section, you are going to write your first line of code <code className='text-slate-400'> Hello world </code> 
-               and display it on your browser. Our purpose in this course is to make the content very 
-               friendly and familiar inorder to ease your learning progress by connecting all the fundamental concepts.     </div>
-             <div className=' md:w-[650px] mt-10 mb-10'>
-             We offer a comprehensive curriculum that covers
-              all essential aspects of web development, catering to learners of all 
-              levels. From fundamental concepts like <span className='font-bold'> HTML, CSS,</span> and 
-              <span className='font-bold'>JavaScript</span> to advanced topics such as front-end and back-end frameworks, databases, and server management, the platform provides a structured
-              learning path to ensure you acquire a solid foundation and advanced expertise
+            In HTML, the <span className="font-bold">audio </span> and 
+             <span className="font-bold">video </span>
+               tags are used to embed audio and video content, respectively, into a web page.
+                These elements allow you to play multimedia files directly within the browser without 
+               requiring any third-party plugins.   </div>
+             <div className=' md:w-[650px] my-10'>
+             The <span className="font-bold">audio </span> tag is used to embed audio content, such as music, sound effects, 
+               or podcasts, into a web page. It supports various audio file formats, including 
+               MP3, WAV, and Ogg.
+                Here's an example of how to use the <span className="font-bold">audio </span> tag:
              </div>
              <p className='mb-10'>Get enough skills to create a responsive design below</p>
              <div>

@@ -35,10 +35,25 @@ const Overview = () => {
                 <div>
                 <Image src={fulle} alt='image layout'  width={400} height={400}/> 
              </div>
+             <div>
+                <Image src={prshow}  className='border my-5' alt='image layout'  width={400} height={400}/> 
+             </div>
+             {/* <div>
+                <Image src={fulle} alt='image layout'  width={400} height={400}/> 
+             </div> */}
                 
                 <p className='md:w-[650px] mt-10 mb-10'>
-                Mobile-Friendly Learning: Recognizing the importance of mobile devices in today's digital landscape, the platform is optimized for mobile learning. 
-                </p>
+                In this example, we're using an iframe to embed a YouTube video by providing the video's URL as the src attribute. The width and height attributes specify the dimensions of the iframe, while the
+                 allow attribute defines the permissions given to the embedded content (e.g., autoplay, fullscreen, etc.).
+
+It's important to note that iframes should be used with caution, especially 
+when embedding content from external sources. Content loaded via iframes is subject 
+to the security restrictions of the parent page, but malicious or poorly implemented iframes
+ could potentially cause security vulnerabilities (e.g., clickjacking). Always ensure that you trust the source of the content being embedded.
+
+Additionally, search engines may not index content within iframes, which can affect SEO. 
+If you need the content to be indexed, consider using other techniques, such as server-side
+ includes or embedding the content directly into the page using HTML and CSS. </p>
 
              </div>
         </div>

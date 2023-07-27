@@ -2,6 +2,8 @@ import React from 'react'
 import Maindrop from "../../../components/Maindrop"
 import Image from 'next/image'
 import full from "./framecode.png"
+import prshow from "./prshow.png"
+import fulle from "./frames.png"
 
 const Overview = () => {
   return (
@@ -30,14 +32,10 @@ const Overview = () => {
                 The src attribute specifies the URL of the external page or content that you want to embed. 
                 Here's an example of embedding a YouTube video using an iframe:
                 </p>
-                <p className='md:w-[650px] mt-10 mb-10'>
-                Personalized Learning Paths: The platform recognizes that each learner has unique goals and learning preferences. It offers personalized learning paths that adapt to the individual's progress, allowing them to learn at their own pace. Learners can also set goals, track their progress, 
-                and receive tailored recommendations to optimize their learning journey.
-                </p>
-                <p className='md:w-[650px] mt-10 mb-10'>
-                Industry-Relevant Projects: To reinforce the learned concepts, the platform offers hands-on projects inspired by real-world scenarios. These projects provide learners with practical experience in building responsive websites, optimizing performance, and implementing best practices.
-                 By working on these projects, learners can build a 
-                </p>
+                <div>
+                <Image src={fulle} alt='image layout'  width={400} height={400}/> 
+             </div>
+                
                 <p className='md:w-[650px] mt-10 mb-10'>
                 Mobile-Friendly Learning: Recognizing the importance of mobile devices in today's digital landscape, the platform is optimized for mobile learning. 
                 </p>

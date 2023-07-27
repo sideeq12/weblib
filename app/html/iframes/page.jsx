@@ -1,7 +1,7 @@
 import React from 'react'
-import Maindrop from "../../components/Maindrop"
+import Maindrop from "../../../components/Maindrop"
 import Image from 'next/image'
-// import full from "./web.png"
+import full from "./framecode.png"
 
 const Overview = () => {
   return (
@@ -9,22 +9,20 @@ const Overview = () => {
         <Maindrop />
         <div className='md:pt-32 md:pl-10 pl-5 pt-10 pr-5'>
             <h2 className='text-3xl font-bold'>
-               Links in HTML
+               Iframes in HTML 
             </h2>
             <div className=' md:w-[650px] mt-10 text-sm md:text-base '>
-               In this section, you are going to write your first line of code <code className='text-slate-400'> Hello world </code> 
-               and display it on your browser. Our purpose in this course is to make the content very 
-               friendly and familiar inorder to ease your learning progress by connecting all the fundamental concepts.     </div>
-             <div className=' md:w-[650px] mt-10 mb-10'>
-             We offer a comprehensive curriculum that covers
-              all essential aspects of web development, catering to learners of all 
-              levels. From fundamental concepts like <span className='font-bold'> HTML, CSS,</span> and 
-              <span className='font-bold'>JavaScript</span> to advanced topics such as front-end and back-end frameworks, databases, and server management, the platform provides a structured
-              learning path to ensure you acquire a solid foundation and advanced expertise
+            In HTML, an iframe (short for "inline frame") is used to embed 
+            another HTML document or web page within the current web page. 
+            It allows you to display content from an external source or a different
+             page on your website without having to navigate away from the current page.
+              This is often used to integrate third-party content, such as embedded videos,
+             maps, or social media widgets, into a web page.   </div>
+             <div className=' md:w-[650px] my-10'>
              </div>
-             <p className='mb-10'>Get enough skills to create a responsive design below</p>
+             <p className='mb-10'>The basic syntax of an iframe is as follows:</p>
              <div>
-                {/* <Image src={full} alt='image layout'  width={400} height={400}/>  */}
+                <Image src={full} alt='image layout'  width={400} height={400}/> 
              </div>
 
              <div className='mt-10'>

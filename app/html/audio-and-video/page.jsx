@@ -57,6 +57,14 @@ const Overview = () => {
                 <div>
                 <Image className='border' src={vres} alt='image layout'  width={400} height={400}/> 
              </div>
+             <p className="my-10 w-[650px]">
+             Similar to the <span className="font-bold">audio </span> tag, the controls attribute adds playback controls to the video player. The width and height attributes define the dimensions of the video player.
+
+Both the <span className="font-bold">audio </span> and <span className="font-bold">video </span> tags can have multiple <span className="font-bold">source </span> elements, allowing you to provide different file formats to improve cross-browser compatibility. The browser will choose the first supported format from the list.
+
+If the browser does not support the <span className="font-bold">audio </span> or <span className="font-bold">video </span>tags or any of the specified formats, it will display the content inside the tags' fallback content. In the examples above, the fallback content is the message "Your browser does not support the audio/video element." This allows you to provide alternative content or instructions for users 
+   whose browsers don't support the audio or video features.
+             </p>
              <h3>When the correct video name and extension available: </h3>
                 <div>
                 <Image className='border' src={correct} alt='image layout'  width={400} height={400}/> 

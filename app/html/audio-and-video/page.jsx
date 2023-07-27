@@ -60,7 +60,9 @@ const Overview = () => {
              <p className="my-10 w-[650px]">
              Similar to the <span className="font-bold">audio </span> tag, the controls attribute adds playback controls to the video player. The width and height attributes define the dimensions of the video player.
 
-Both the <span className="font-bold">audio </span> and <span className="font-bold">video </span> tags can have multiple <span className="font-bold">source </span> elements, allowing you to provide different file formats to improve cross-browser compatibility. The browser will choose the first supported format from the list.
+Both the <span className="font-bold">audio </span> and <span className="font-bold">video </span> tags can have multiple <span className="font-bold">source </span> elements, allowing you to provide different file formats 
+to improve cross-browser compatibility.
+ <br /> The browser will choose the first supported format from the list.
 
 If the browser does not support the <span className="font-bold">audio </span> or <span className="font-bold">video </span>tags or any of the specified formats, it will display the content inside the tags' fallback content. In the examples above, the fallback content is the message "Your browser does not support the audio/video element." This allows you to provide alternative content or instructions for users 
    whose browsers don't support the audio or video features.

@@ -41,9 +41,7 @@ const Overview = () => {
                      from which users can choose one or more options.
                   </div>
                   <div>
-                     <span className="font-bold">option : </span>  Used to create dropdown lists
-                      (also known as select menus) 
-                     from which users can choose one or more options.
+                     <span className="font-bold">option : </span>  UUsed as a child element of <span className="font-bold">select</span> to define individual options within a dropdown list.
                   </div>
                   <div>
                      <span className="font-bold">button : </span>  Represents a 

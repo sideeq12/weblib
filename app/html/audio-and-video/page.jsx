@@ -1,7 +1,10 @@
 import React from 'react'
 import Maindrop from "../../../components/Maindrop"
 import Image from 'next/image'
-// import full from "./web.png"
+import full from "./audi.png"
+import res from "./audires.png"
+import fim from './vicode.png'
+import vres from './vid.png'
 
 const Overview = () => {
   return (
@@ -23,29 +26,36 @@ const Overview = () => {
                MP3, WAV, and Ogg.
                 Here's an example of how to use the <span className="font-bold">audio </span> tag:
              </div>
-             <p className='mb-10'>Get enough skills to create a responsive design below</p>
              <div>
-                {/* <Image src={full} alt='image layout'  width={400} height={400}/>  */}
+                <Image src={full} alt='image layout'  width={400} height={400}/> 
              </div>
 
              <div className='mt-10'>
-                <h3>Key features</h3>
-                <p className='md:w-[650px] mt-10 mb-10'>
-                Interactive Learning: Engaging and interactive learning
-                 experiences are at the core of the platform. Through a combination of video tutorials, quizzes, coding exercises, and real-world projects, learners can apply their knowledge in a practical setting. The platform provides a sandbox environment for learners to experiment with code and 
-                see the immediate results of their HTML and CSS implementations.
+                <h3>Result on the browser</h3>
+                <div>
+                <Image className='border' src={res} alt='image layout'  width={400} height={400}/> 
+             </div>
+                <p className='md:w-[650px] my-10'>
+                In this example, the controls attribute adds basic playback controls 
+                (play, pause, volume, etc.) to the audio player. The <span className="font-bold">source </span>
+                element is used to specify multiple audio file formats to provide
+                 compatibility across different browsers. The browser will automatically
+                 choose the supported format based on the browser's capabilities.
                 </p>
-                <p className='md:w-[650px] mt-10 mb-10'>
-                Personalized Learning Paths: The platform recognizes that each learner has unique goals and learning preferences. It offers personalized learning paths that adapt to the individual's progress, allowing them to learn at their own pace. Learners can also set goals, track their progress, 
-                and receive tailored recommendations to optimize their learning journey.
+
+                <h3 className='my-5'>The video tag </h3>
+                <p className='md:w-[650px] my-10'>
+                The <span className="font-bold">video </span> tag is used to embed video content, such as movies, video clips, 
+                  or video presentations, into a web page. It supports various video file formats, including MP4,
+                   WebM, and Ogg. Here's an example of how to use the <span className="font-bold">video </span> tag: 
                 </p>
-                <p className='md:w-[650px] mt-10 mb-10'>
-                Industry-Relevant Projects: To reinforce the learned concepts, the platform offers hands-on projects inspired by real-world scenarios. These projects provide learners with practical experience in building responsive websites, optimizing performance, and implementing best practices.
-                 By working on these projects, learners can build a 
-                </p>
-                <p className='md:w-[650px] mt-10 mb-10'>
-                Mobile-Friendly Learning: Recognizing the importance of mobile devices in today's digital landscape, the platform is optimized for mobile learning. 
-                </p>
+                <div>
+                <Image src={full} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <h3>Result on the browser</h3>
+                <div>
+                <Image className='border' src={res} alt='image layout'  width={400} height={400}/> 
+             </div>
 
              </div>
         </div>

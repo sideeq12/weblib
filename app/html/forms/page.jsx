@@ -27,6 +27,29 @@ const Overview = () => {
                      container element for the form. It encompasses all the form elements and defines how
                       the data will be sent to the server.
                   </div>
+                  <div>
+                     <span className="font-bold">Input : </span>  The input element is used 
+                     to create various types of form controls, such as text
+                      fields, checkboxes, radio buttons, buttons, etc.
+                  </div><div>
+                     <span className="font-bold">Textarea </span> : This element allows users to
+                      input multi-line text, 
+                     useful for longer messages or comments.
+                  </div><div>
+                     <span className="font-bold">select : </span>  Used to create dropdown lists
+                      (also known as select menus) 
+                     from which users can choose one or more options.
+                  </div>
+                  <div>
+                     <span className="font-bold">option : </span>  Used to create dropdown lists
+                      (also known as select menus) 
+                     from which users can choose one or more options.
+                  </div>
+                  <div>
+                     <span className="font-bold">button : </span>  Represents a 
+                     clickable button that can be used to submit 
+                     the form or trigger custom JavaScript functions.
+                  </div>
 
                </div>
              <div>

@@ -26,11 +26,9 @@ const Overview = () => {
              </div>
 
              <div className='mt-10'>
-                <h3>Key features</h3>
                 <p className='md:w-[650px] mt-10 mb-10'>
-                Interactive Learning: Engaging and interactive learning
-                 experiences are at the core of the platform. Through a combination of video tutorials, quizzes, coding exercises, and real-world projects, learners can apply their knowledge in a practical setting. The platform provides a sandbox environment for learners to experiment with code and 
-                see the immediate results of their HTML and CSS implementations.
+                The src attribute specifies the URL of the external page or content that you want to embed. 
+                Here's an example of embedding a YouTube video using an iframe:
                 </p>
                 <p className='md:w-[650px] mt-10 mb-10'>
                 Personalized Learning Paths: The platform recognizes that each learner has unique goals and learning preferences. It offers personalized learning paths that adapt to the individual's progress, allowing them to learn at their own pace. Learners can also set goals, track their progress, 

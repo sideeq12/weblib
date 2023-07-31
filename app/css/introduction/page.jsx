@@ -58,19 +58,21 @@ const Page = () => {
         <Maindrop />
         <div className='md:pt-32 md:pl-10 pl-5 pt-10 pr-5'>
             <h2 className='text-3xl font-bold'>
-               Audio and video tag in HTML 
+                Introduction to CSS (Cascading stylesheet)
             </h2>
             <div className=' md:w-[650px] mt-10 text-sm md:text-base '>
-            In HTML, the <span className="font-bold">audio </span> and 
-             <span className="font-bold">video </span>
-               tags are used to embed audio and video content, respectively, into a web page.
-                These elements allow you to play multimedia files directly within the browser without 
-               requiring any third-party plugins.   </div>
+                In the previous chapters, we discuss about HTML and elements of html coupled with
+                their usecases, but we could not style them or make the interface more appealing for users,
+                such as giving colors to the text, or making it bigger , resizing our images. There are several 
+                action we can do with our html elements. So, let's go deep in the css Architecture and experiment how 
+                it can be used in our project.   </div>
              <div className=' md:w-[650px] my-10'>
-             The <span className="font-bold">audio </span> tag is used to embed audio content, such as music, sound effects, 
-               or podcasts, into a web page. It supports various audio file formats, including 
-               MP3, WAV, and Ogg.
-                Here's an example of how to use the <span className="font-bold">audio </span> tag:
+                There are three seperate ways of writing css. 
+                <ul>
+                    <li>Inline css</li>
+                    <li>Internal css (Embedded) </li>
+                    <li>External css </li>
+                </ul>
              </div>
              <div>
                 {/* <Image src={full} alt='image layout'  width={400} height={400}/>  */}

@@ -77,9 +77,9 @@ const Maindrop = () => {
             { csview ? 
             <div className='mt-5 mr-9 ml-8 flex flex-col gap-4'>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/css/introduction">Introduction to CSS</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/css/selectors">CSS Selectors and Properties</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/css/css-font">CSS fonts</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/css/css-colors">colors</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/css/selectors">CSS Selectors and Properties</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/css/model">The Box Model</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/css/layout">Layout and Positioning</Link>
             <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/css/responsiveness">Responsive Web Design</Link>

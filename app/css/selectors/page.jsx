@@ -7,14 +7,10 @@ const Page = () => {
         <Maindrop />
         <div className='md:pt-32 md:pl-10 pl-5 pt-10 pr-5'>
             <h2 className='text-3xl font-bold'>
-               Audio and video tag in HTML 
+               CSS selectors and properties
             </h2>
             <div className=' md:w-[650px] mt-10 text-sm md:text-base '>
-            In HTML, the <span className="font-bold">audio </span> and 
-             <span className="font-bold">video </span>
-               tags are used to embed audio and video content, respectively, into a web page.
-                These elements allow you to play multimedia files directly within the browser without 
-               requiring any third-party plugins.   </div>
+             for the next chapters, we would be using internal css   </div>
              <div className=' md:w-[650px] my-10'>
              The <span className="font-bold">audio </span> tag is used to embed audio content, such as music, sound effects, 
                or podcasts, into a web page. It supports various audio file formats, including 

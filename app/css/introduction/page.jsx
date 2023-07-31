@@ -3,6 +3,9 @@ import Maindrop from '@/components/Maindrop'
 import Image from 'next/image'
 import inlineImg from './inline.png'
 import inl from './inlin.png'
+import intern from './internal.png'
+import ht from './ht.png'
+import cs from './css.png'
 
 
 const Page = () => {
@@ -111,32 +114,38 @@ const Page = () => {
                      location in the HTML file.
                 </p>
 
-                <h3 className='my-5'>The video tag </h3>
+                <p className='mt-5'>For example: We are going to change the color of paragraph
+             using internal css styling method </p>
+                <Image src={intern} className='mt-5' alt='image layout'  width={400} height={400}/> 
+                <div className="mt-5">
+
+                <Image className='border' src={inl} alt='image layout'  width={400} height={400}/> 
+                </div>
+             
+                <h3 className='text-xl mt-10 font-bold'>
+               3. External-css
+             </h3>
                 <p className='md:w-[650px] my-10'>
-                The <span className="font-bold">video </span> tag is used to embed video content, such as movies, video clips, 
-                  or video presentations, into a web page. It supports various video file formats, including MP4,
-                   WebM, and Ogg. Here's an example of how to use the <span className="font-bold">video </span> tag: 
+                External CSS involves writing CSS in a separate file with a .css extension and 
+                linking that file to the HTML document using the <span className="font-bold">link </span> element. This is the most
+                 recommended way of writing CSS
+                 as it promotes better code organization, reusability, and maintainability. <br />
+                 Multiple HTML pages can share the same external CSS file, reducing code duplication and
+                  making it easier to make global style changes.
                 </p>
-                <div>
-             </div>
-             <h3>Result on the browser</h3>
-                <div>
-                {/* <Image className='border' src={vres} alt='image layout'  width={400} height={400}/>  */}
-             </div>
-             <p className="my-10 w-[650px]">
-             Similar to the <span className="font-bold">audio </span> tag, the controls attribute adds playback controls to the video player. The width and height attributes define the dimensions of the video player.
-
-Both the <span className="font-bold">audio </span> and <span className="font-bold">video </span> tags can have multiple <span className="font-bold">source </span> elements, allowing you to provide different file formats 
-to improve cross-browser compatibility.
- <br /> The browser will choose the first supported format from the list.
-
-If the browser does not support the <span className="font-bold">audio </span> or <span className="font-bold">video </span>tags or any of the specified formats, it will display the content inside the tags' fallback content. In the examples above, the fallback content is the message "Your browser does not support the audio/video element." This allows you to provide alternative content or instructions for users 
-   whose browsers don't support the audio or video features.
-             </p>
-             <h3>When the correct video name and extension available: </h3>
-                <div>
-                {/* <Image className='border' src={correct} alt='image layout'  width={400} height={400}/>  */}
-             </div>
+   
+                <p className='my-5'>For example: We are going to change the color of paragraph
+             using internal css styling method </p>
+                Inside our html code
+                <Image src={ht} className='my-5' alt='image layout'  width={400} height={400}/> 
+                Inside our style.css file
+                <div className="my-5">
+                <Image className='border' src={cs} alt='image layout'  width={400} height={400}/> 
+                </div>
+                Result on the web broweser 
+                <div className="mt-5">
+                <Image className='border' src={inl} alt='image layout'  width={400} height={400}/> 
+                </div>
 
              </div>
         </div>

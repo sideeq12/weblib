@@ -3,6 +3,10 @@ import Maindrop from '@/components/Maindrop'
 import uni from './uni.png'
 import Image from 'next/image'
 import unires from './unires.png'
+import el from './el.png'
+import elout from './elout.png'
+import sel from './cl.png'
+import selout from './selout.png'
 
 const Page = () => {
   return (
@@ -37,10 +41,10 @@ const Page = () => {
                   <p>The element selector selects all instances of a specific HTML element.</p>
              </div>
              <div>
-                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+                <Image src={el} alt='image layout'  width={400} height={400}/> 
              </div>
              <div>
-                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
+                <Image className='border my-5' src={elout} alt='image layout'  width={400} height={400}/> 
              </div>
              <div className=' md:w-[650px] my-10'>
                 <h2 className='font-semibold'> 3. class selectors  (.) : </h2>
@@ -48,10 +52,10 @@ const Page = () => {
                      It is denoted by a period (dot) followed by the class name..</p>
              </div>
              <div>
-                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+                <Image src={selout} alt='image layout'  width={400} height={400}/> 
              </div>
              <div>
-                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
+                <Image className='border my-5' src={sel} alt='image layout'  width={400} height={400}/> 
              </div>
              <div className=' md:w-[650px] my-10'>
                 <h2 className='font-semibold'> 4. ID selectors (#): </h2>

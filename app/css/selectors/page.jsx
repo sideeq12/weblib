@@ -1,5 +1,8 @@
 import React from 'react'
 import Maindrop from '@/components/Maindrop'
+import uni from './uni.png'
+import Image from 'next/image'
+import unires from './unires.png'
 
 const Page = () => {
   return (
@@ -10,58 +13,113 @@ const Page = () => {
                CSS selectors and properties
             </h2>
             <div className=' md:w-[650px] mt-10 text-sm md:text-base '>
-             for the next chapters, we would be using internal css   </div>
+            CSS selectors are patterns used to select and target HTML elements on a web page. They 
+            allow you to apply styles and formatting to specific elements or groups of elements based
+             on their attributes, properties, or relationships to other elements. CSS selectors play a
+              crucial role in styling web pages and making them visually appealing.  </div>
              <div className=' md:w-[650px] my-10'>
-             The <span className="font-bold">audio </span> tag is used to embed audio content, such as music, sound effects, 
-               or podcasts, into a web page. It supports various audio file formats, including 
-               MP3, WAV, and Ogg.
-                Here's an example of how to use the <span className="font-bold">audio </span> tag:
+                <span className="font-bold text-lg">There are nine commonly used seletor tags : </span> 
+                <h2 className='font-semibold'> 1. Universal selectors : </h2>
+                  <p>The universal selector selects all elements on the page.
+                      It is used to apply styles globally to all elements.</p>
              </div>
              <div>
-                {/* <Image src={full} alt='image layout'  width={400} height={400}/>  */}
+                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div>
+                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
              </div>
 
              <div className='mt-10'>
-                <h3>Result on the browser</h3>
-                <div>
-                {/* <Image className='border' src={res} alt='image layout'  width={400} height={400}/>  */}
+             
+             <div className=' md:w-[650px] my-10'> 
+                <h2 className='font-semibold'> 2. Element selectors : </h2>
+                  <p>The element selector selects all instances of a specific HTML element.</p>
              </div>
-                <p className='md:w-[650px] my-10'>
-                In this example, the controls attribute adds basic playback controls 
-                (play, pause, volume, etc.) to the audio player. The <span className="font-bold">source </span>
-                element is used to specify multiple audio file formats to provide
-                 compatibility across different browsers. The browser will automatically
-                 choose the supported format based on the browser's capabilities.
-                </p>
-
-                <h3 className='my-5'>The video tag </h3>
-                <p className='md:w-[650px] my-10'>
-                The <span className="font-bold">video </span> tag is used to embed video content, such as movies, video clips, 
-                  or video presentations, into a web page. It supports various video file formats, including MP4,
-                   WebM, and Ogg. Here's an example of how to use the <span className="font-bold">video </span> tag: 
-                </p>
-                <div>
-                {/* <Image src={fim} alt='image layout'  width={400} height={400}/>  */}
+             <div>
+                <Image src={uni} alt='image layout'  width={400} height={400}/> 
              </div>
-             <h3>Result on the browser</h3>
-                <div>
-                {/* <Image className='border' src={vres} alt='image layout'  width={400} height={400}/>  */}
+             <div>
+                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
              </div>
-             <p className="my-10 w-[650px]">
-             Similar to the <span className="font-bold">audio </span> tag, the controls attribute adds playback controls to the video player. The width and height attributes define the dimensions of the video player.
-
-Both the <span className="font-bold">audio </span> and <span className="font-bold">video </span> tags can have multiple <span className="font-bold">source </span> elements, allowing you to provide different file formats 
-to improve cross-browser compatibility.
- <br /> The browser will choose the first supported format from the list.
-
-If the browser does not support the <span className="font-bold">audio </span> or <span className="font-bold">video </span>tags or any of the specified formats, it will display the content inside the tags' fallback content. In the examples above, the fallback content is the message "Your browser does not support the audio/video element." This allows you to provide alternative content or instructions for users 
-   whose browsers don't support the audio or video features.
-             </p>
-             <h3>When the correct video name and extension available: </h3>
-                <div>
-                {/* <Image className='border' src={correct} alt='image layout'  width={400} height={400}/>  */}
+             <div className=' md:w-[650px] my-10'>
+                <h2 className='font-semibold'> 3. class selectors  (.) : </h2>
+                  <p>The class selector selects all elements with a specific class attribute. 
+                     It is denoted by a period (dot) followed by the class name..</p>
              </div>
-
+             <div>
+                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div>
+                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div className=' md:w-[650px] my-10'>
+                <h2 className='font-semibold'> 4. ID selectors (#): </h2>
+                  <p>The ID selector selects a single element with a specific ID attribute.
+                      It is denoted by a hash (#) followed by the ID name..</p>
+             </div>
+             <div>
+                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div>
+                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div className=' md:w-[650px] my-10'>
+               <h2 className='font-semibold'> 5. Group selectors : </h2>
+                  <p>The grouping selector allows you to apply the same styles to multiple 
+                     selectors at once. Separate selectors with commas..</p>
+             </div>
+             <div>
+                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div>
+                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div className=' md:w-[650px] my-10'>
+                <h2 className='font-semibold'> 6. Descendant selectors (` `) : </h2>
+                  <p>The descendant selector selects an element that is a descendant of 
+                     another specific element.
+                      It is specified by a space between the parent and child elements.</p>
+             </div>
+             <div>
+                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div>
+                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div className=' md:w-[650px] my-10'>
+               <h2 className='font-semibold'> 7. Child selectors  : </h2>
+                  <p>The child selector selects an element that is a direct 
+                     child of another element.</p>
+             </div>
+             <div>
+                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div>
+                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div className=' md:w-[650px] my-10'>
+                <h2 className='font-semibold'> 8. Adjacent sibling selectors : </h2>
+                  <p>The adjacent sibling selector selects an element that directly 
+                     follows another element and shares the same parent..</p>
+             </div>
+             <div>
+                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div>
+                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div className=' md:w-[650px] my-10'>
+                <h2 className='font-semibold'> 9. Universal selectors : </h2>
+                  <p>The general sibling selector selects an element that follows
+                      another element and shares the same parent..</p>
+             </div>
+             <div>
+                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div>
+                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
+             </div>
              </div>
         </div>
     </div>

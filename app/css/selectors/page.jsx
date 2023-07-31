@@ -7,6 +7,16 @@ import el from './el.png'
 import elout from './elout.png'
 import sel from './cl.png'
 import selout from './selout.png'
+import id from './id.png'
+import group from './group.png'
+import groupres from './groupres.png'
+import ch from './ch.png'
+import chres from './chres.png'
+import chi from './chi.png'
+import chires from './chires.png'
+import adj from './adj.png'
+import link from './link.png'
+import lcode from './lcode.png'
 
 const Page = () => {
   return (
@@ -63,10 +73,10 @@ const Page = () => {
                       It is denoted by a hash (#) followed by the ID name..</p>
              </div>
              <div>
-                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+                <Image src={id} alt='image layout'  width={400} height={400}/> 
              </div>
              <div>
-                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
+                <Image className='border my-5' src={sel} alt='image layout'  width={400} height={400}/> 
              </div>
              <div className=' md:w-[650px] my-10'>
                <h2 className='font-semibold'> 5. Group selectors : </h2>
@@ -74,10 +84,10 @@ const Page = () => {
                      selectors at once. Separate selectors with commas..</p>
              </div>
              <div>
-                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+                <Image src={group} alt='image layout'  width={400} height={400}/> 
              </div>
              <div>
-                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
+                <Image className='border my-5' src={groupres} alt='image layout'  width={400} height={400}/> 
              </div>
              <div className=' md:w-[650px] my-10'>
                 <h2 className='font-semibold'> 6. Descendant selectors (` `) : </h2>
@@ -86,10 +96,10 @@ const Page = () => {
                       It is specified by a space between the parent and child elements.</p>
              </div>
              <div>
-                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+                <Image src={chres} alt='image layout'  width={400} height={400}/> 
              </div>
              <div>
-                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
+                <Image className='border my-5' src={ch} alt='image layout'  width={400} height={400}/> 
              </div>
              <div className=' md:w-[650px] my-10'>
                <h2 className='font-semibold'> 7. Child selectors  : </h2>
@@ -97,10 +107,10 @@ const Page = () => {
                      child of another element.</p>
              </div>
              <div>
-                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+                <Image src={chires} alt='image layout'  width={400} height={400}/> 
              </div>
              <div>
-                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
+                <Image className='border my-5' src={chi} alt='image layout'  width={400} height={400}/> 
              </div>
              <div className=' md:w-[650px] my-10'>
                 <h2 className='font-semibold'> 8. Adjacent sibling selectors : </h2>
@@ -108,10 +118,7 @@ const Page = () => {
                      follows another element and shares the same parent..</p>
              </div>
              <div>
-                <Image src={uni} alt='image layout'  width={400} height={400}/> 
-             </div>
-             <div>
-                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
+                <Image src={adj} alt='image layout'  width={400} height={400}/> 
              </div>
              <div className=' md:w-[650px] my-10'>
                 <h2 className='font-semibold'> 9. Universal selectors : </h2>
@@ -119,10 +126,10 @@ const Page = () => {
                       another element and shares the same parent..</p>
              </div>
              <div>
-                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+                <Image src={lcode} alt='image layout'  width={400} height={400}/> 
              </div>
              <div>
-                <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 
+                <Image className='border my-5' src={link} alt='image layout'  width={400} height={400}/> 
              </div>
              </div>
         </div>

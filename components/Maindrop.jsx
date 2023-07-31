@@ -76,16 +76,16 @@ const Maindrop = () => {
             }</label></button>
             { csview ? 
             <div className='mt-5 mr-9 ml-8 flex flex-col gap-4'>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Html tags</Link>
-            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/">Html tags</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/css/introduction">Introduction to CSS</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/css/selectors">CSS Selectors and Properties</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/css/model">The Box Model</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2'  href="/css/layout">Layout and Positioning</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/css/responsive">Responsive Web Design</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/css/transition">CSS Transitions and Animations</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/css/preprocessors">CSS Preprocessors</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/css/frameworks">CSS Frameworks</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/css/architecture">CSS Architecture</Link>
+            <Link className='border w-full rounded-lg border-slate-400  pl-6 py-2' href="/css/performance">CSS Performance</Link>
             </div> : null}
 
             <Link className='hover:border-l-2 

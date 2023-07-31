@@ -1,5 +1,9 @@
 import React from 'react'
 import Maindrop from '@/components/Maindrop'
+import Image from 'next/image'
+import inlineImg from './inline.png'
+import inl from './inlin.png'
+
 
 const Page = () => {
   return (
@@ -67,28 +71,44 @@ const Page = () => {
                 action we can do with our html elements. So, let's go deep in the css Architecture and experiment how 
                 it can be used in our project.   </div>
              <div className=' md:w-[650px] my-10'>
+                <h3 className="text-xl font-bold"> 
                 There are three seperate ways of writing css. 
+                </h3>
                 <ul>
                     <li>Inline css</li>
                     <li>Internal css (Embedded) </li>
-                    <li>External css </li>
+                    <li>External css (Most recommended) </li>
                 </ul>
              </div>
-             <div>
-                {/* <Image src={full} alt='image layout'  width={400} height={400}/>  */}
-             </div>
+             <h3 className='text-xl font-bold'>
+               1. Inline-css
+             </h3>
 
-             <div className='mt-10'>
-                <h3>Result on the browser</h3>
-                <div>
-                {/* <Image className='border' src={res} alt='image layout'  width={400} height={400}/>  */}
-             </div>
+             <div className='mt-10 md:w-[650px]'>
+             Inline CSS involves writing the CSS directly within the HTML
+              elements using the <span className="font-bold">style </span> attribute. It 
+             applies the styles only to the specific element it's written in.
+             <br />
+             While it's straightforward to use, inline CSS can become difficult to manage and maintain as 
+             the project grows, and it violates the separation of concerns principle 
+             (HTML should handle the structure, and CSS should handle the presentation).
+
+             <p className='mt-5'>For example: We are going to change the color of paragraph
+             using inline-css method </p>
+                <Image src={inlineImg} className='mt-5' alt='image layout'  width={400} height={400}/> 
+                <div className="mt-5">
+
+                <Image className='border' src={inl} alt='image layout'  width={400} height={400}/> 
+                </div>
+             <h3 className='text-xl mt-10 font-bold'>
+               2. Internal-css
+             </h3>
                 <p className='md:w-[650px] my-10'>
-                In this example, the controls attribute adds basic playback controls 
-                (play, pause, volume, etc.) to the audio player. The <span className="font-bold">source </span>
-                element is used to specify multiple audio file formats to provide
-                 compatibility across different browsers. The browser will automatically
-                 choose the supported format based on the browser's capabilities.
+                Internal CSS is written within the <span className="font-bold"> style </span> element
+                 inside the <span className="font-bold"> head </span>   section of the HTML document. It applies 
+                    styles to the entire document or specific sections within the same HTML file. <br />
+                    Unlike inline CSS, it allows better organization as all CSS rules are contained in a single
+                     location in the HTML file.
                 </p>
 
                 <h3 className='my-5'>The video tag </h3>
@@ -98,7 +118,6 @@ const Page = () => {
                    WebM, and Ogg. Here's an example of how to use the <span className="font-bold">video </span> tag: 
                 </p>
                 <div>
-                {/* <Image src={fim} alt='image layout'  width={400} height={400}/>  */}
              </div>
              <h3>Result on the browser</h3>
                 <div>

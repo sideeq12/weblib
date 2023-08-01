@@ -38,7 +38,7 @@ const Page = () => {
                       It is used to apply styles globally to all  elements.</p>
              </div>
              <div>
-                <Image src={uni} alt='image layout'  width={400} height={400}/> 
+                <Image src={uni} alt='image layout code'  width={400} height={400}/> 
              </div>
              <div>
                 <Image className='border my-5' src={unires} alt='image layout'  width={400} height={400}/> 

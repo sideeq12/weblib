@@ -47,7 +47,7 @@ const Page = () => {
              <div className='mt-10'>
              
              <div className=' md:w-[650px] my-10'> 
-                <h2 className='font-semibold'> 2. Element selectors : </h2>
+                <h2 className='font-semibold'>  2. Element selectors : </h2>
                   <p>The element selector selects all instances of a specific HTML element.</p>
              </div>
              <div>

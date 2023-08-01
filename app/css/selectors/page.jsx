@@ -104,7 +104,8 @@ const Page = () => {
              <div className=' md:w-[650px] my-10'>
                <h2 className='font-semibold'> 7. Child selectors  : </h2>
                   <p>The child selector selects an element that is a direct 
-                     child of another element.</p>
+                     child of another element
+                     .</p>
              </div>
              <div>
                 <Image src={chires} alt='image layout'  width={400} height={400}/> 

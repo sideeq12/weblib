@@ -35,7 +35,7 @@ const Page = () => {
                 <span className="font-bold text-lg">There are nine commonly used seletor tags : </span> 
                 <h2 className='font-semibold'> 1. Universal selectors : </h2>
                   <p>The universal selector selects all elements on the page.
-                      It is used to apply styles globally to all elements.</p>
+                      It is used to apply styles globally to all  elements.</p>
              </div>
              <div>
                 <Image src={uni} alt='image layout'  width={400} height={400}/> 

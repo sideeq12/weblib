@@ -127,7 +127,7 @@ const Page = () => {
                       another element and shares the same parent..</p>
              </div>
              <div>
-                <Image src={lcode} alt='image layout'  width={400} height={400}/> 
+                <Image src={lcode} alt='image layout code'  width={400} height={400}/> 
              </div>
              <div>
                 <Image className='border my-5' src={link} alt='image layout'  width={400} height={400}/> 

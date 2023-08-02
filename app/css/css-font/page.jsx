@@ -5,6 +5,13 @@ import familyout from './familyout.png'
 import family from './family.png'
 import size from './size.png'
 import sizeout from './sizeout.png'
+import weight from './weight.png'
+import weout from './weighout.png'
+import styl from './styleout.png'
+import st from './style.png'
+import txt from './text.png'
+import textcode from './textcode.png'
+
 
 const Page = () => {
   return (
@@ -54,37 +61,63 @@ const Page = () => {
                   bold, bolder, lighter, or numeric values like 400, 700, etc. For example:
                 </p>
                 <div className='my-10'>
-                {/* <Image src={fim} alt='image layout'  width={400} height={400}/>  */}
+                <Image src={weight} alt='image layout'  width={400} height={400}/> 
              </div>
              <div>
-                {/* <Image src={fim} className='border' alt='image layout'  width={400} height={400}/>  */}
+                <Image src={weout} className='border' alt='image layout'  width={400} height={400}/> 
              </div>
 
 
              <p className='md:my-10'>
-                  <span className="font-semibold">font-family : </span>This property is used to specify the font
-                   family or typeface for the text. You can define multiple font families 
-                  separated by commas, and the browser will use the first available font in the list. For example:
+                  <span className="font-semibold">font-style : </span>
+                  The font-style property is used to define the style of the text. It allows you to control 
+                  whether the text is displayed in a normal (upright), italic, 
+                  or oblique style. The font-style property accepts the following values:
                 </p>
+                <div className="my-5">
+                  <ul>
+                     <li> <span className="font-bold">normal : </span>  This is the default value and displays the text in a normal (upright) style.</li>
+                     <li> <span className="font-bold">italic : </span>  This value displays the text in an italic style. Italic fonts are typically slanted 
+                     and have a cursive appearance..</li>
+                     <li> <span className="font-bold">oblique : </span> This value displays the text in an oblique style. It's similar to italic but doesn't necessarily follow the cursive design of an italic font. Instead, it simply
+                      slants the characters without any special design changes</li>
+                  </ul>
+                </div>
                 <div className='my-10'>
-                {/* <Image src={fim} alt='image layout'  width={400} height={400}/>  */}
+                <Image src={st} alt='image layout'  width={400} height={400}/> 
              </div>
              <div>
-                {/* <Image src={fim} className='border' alt='image layout'  width={400} height={400}/>  */}
+                <Image src={styl} className='border' alt='image layout'  width={400} height={400}/> 
+             </div>
+             <p className='md:my-10'>
+                  <span className="font-semibold">Text-decoration : </span>
+                  This property is used to add visual effects to text. It allows you to control underlining, overlining, 
+                  line-through, and other text decorations. The text-decoration property accepts the following values:
+                </p>
+                <div className="my-5">
+                  <ul>
+                     <li> <span className="font-bold">none : </span> This is the default value and removes any text decoration from the text</li>
+                     <li> <span className="font-bold">underline : </span> 
+                     This value adds a line underneath the text.
+                     and have a cursive appearance..</li>
+                     <li> <span className="font-bold">overline : </span> 
+                     This value adds a line above the text.</li>
+                     <li> <span className="font-bold">line-through : </span> 
+                     : This value adds a line through the middle of the text, striking it out.</li>
+                     <li> <span className="font-bold">overline : </span> 
+                     This value causes the text to blink. However, this value is not supported in modern browsers
+                      and is generally considered a deprecated or non-standard feature.</li>
+                  </ul>
+                </div>
+                <div className='my-10'>
+                <Image src={textcode} alt='image layout'  width={400} height={400}/> 
+             </div>
+             <div>
+                <Image src={txt} className='border' alt='image layout'  width={400} height={400}/> 
              </div>
 
-             <p className='md:my-10'>
-                  <span className="font-semibold">font-family : </span>This property is used to specify the font
-                   family or typeface for the text. You can define multiple font families 
-                  separated by commas, and the browser will use the first available font in the list. For example:
-                </p>
-                <div className='my-10'>
-                {/* <Image src={fim} alt='image layout'  width={400} height={400}/>  */}
-             </div>
-             <div>
-                {/* <Image src={fim} className='border' alt='image layout'  width={400} height={400}/>  */}
-             </div>
             
+                
             
 
              </div>

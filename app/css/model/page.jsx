@@ -15,27 +15,27 @@ const Page = () => {
             every element on a web page is treated as a rectangular box, and each box has four components:   </div>
              <div className=' md:w-[650px] my-10'>
              <div className="my-5">
-                  <ul>
-                     <li> <span className="font-bold">none : </span> This is the default value and removes any text decoration from the text</li>
-                     <li> <span className="font-bold">underline : </span> 
-                     This value adds a line underneath the text.
+                  <ul className='flex flex-col gap-3'>
+                     <li> <span className="font-bold">Content : </span>  This is the innermost part of the box and represents the actual 
+                     content of the element, such as text, images, or other media.</li>
+                     <li> <span className="font-bold">Padding : </span>The padding is a transparent area surrounding the content, creating 
+                     space between the content and the element's border.
                      and have a cursive appearance..</li>
-                     <li> <span className="font-bold">overline : </span> 
-                     This value adds a line above the text.</li>
+                     <li> <span className="font-bold">Padding : </span> 
+                     The border is a line that surrounds the padding and content, creating a visible boundary for
+                      the box. It can have different styles, thicknesses, and colors..</li>
                      <li> <span className="font-bold">line-through : </span> 
                      : This value adds a line through the middle of the text, striking it out.</li>
-                     <li> <span className="font-bold">overline : </span> 
-                     This value causes the text to blink. However, this value is not supported in modern browsers
-                      and is generally considered a deprecated or non-standard feature.</li>
+                     <li> <span className="font-bold">Margin : </span> 
+                     The margin is a transparent area surrounding the border, creating space between the box
+                      and other elements on the page. It provides spacing between elements.</li>
                   </ul>
                 </div>
              </div>
-             <div>
-                {/* <Image src={full} alt='image layout'  width={400} height={400}/>  */}
-             </div>
+            
 
              <div className='mt-10'>
-                <h3>Result on the browser</h3>
+                <h3>Let's take each one of the components and use it as example, starting with content and border</h3>
                 <div>
                 {/* <Image className='border' src={res} alt='image layout'  width={400} height={400}/>  */}
              </div>

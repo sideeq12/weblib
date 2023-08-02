@@ -44,9 +44,9 @@ const Page = () => {
              </div>
 
              <p className='md:my-10'>
-                  <span className="font-semibold">font-family : </span>This property is used to specify the font
-                   family or typeface for the text. You can define multiple font families 
-                  separated by commas, and the browser will use the first available font in the list. For example:
+                  <span className="font-semibold">font-weight : </span>
+                  This property determines the thickness or boldness of the text. The common values are normal, 
+                  bold, bolder, lighter, or numeric values like 400, 700, etc. For example:
                 </p>
                 <div className='my-10'>
                 {/* <Image src={fim} alt='image layout'  width={400} height={400}/>  */}

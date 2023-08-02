@@ -14,10 +14,21 @@ const Page = () => {
             how elements are laid out and how their dimensions are calculated. In the Box Model, 
             every element on a web page is treated as a rectangular box, and each box has four components:   </div>
              <div className=' md:w-[650px] my-10'>
-             The <span className="font-bold">audio </span> tag is used to embed audio content, such as music, sound effects, 
-               or podcasts, into a web page. It supports various audio file formats, including 
-               MP3, WAV, and Ogg.
-                Here's an example of how to use the <span className="font-bold">audio </span> tag:
+             <div className="my-5">
+                  <ul>
+                     <li> <span className="font-bold">none : </span> This is the default value and removes any text decoration from the text</li>
+                     <li> <span className="font-bold">underline : </span> 
+                     This value adds a line underneath the text.
+                     and have a cursive appearance..</li>
+                     <li> <span className="font-bold">overline : </span> 
+                     This value adds a line above the text.</li>
+                     <li> <span className="font-bold">line-through : </span> 
+                     : This value adds a line through the middle of the text, striking it out.</li>
+                     <li> <span className="font-bold">overline : </span> 
+                     This value causes the text to blink. However, this value is not supported in modern browsers
+                      and is generally considered a deprecated or non-standard feature.</li>
+                  </ul>
+                </div>
              </div>
              <div>
                 {/* <Image src={full} alt='image layout'  width={400} height={400}/>  */}

@@ -1,11 +1,14 @@
 import React from 'react'
 import Maindrop from '@/components/Maindrop'
+import Image from 'next/image'
+import col from './colors.png'
+import cool from './cool.png'
 
 const Page = () => {
   return (
 <div className='flex bg-white'>
         <Maindrop />
-        <div className='md:pt-32 md:pl-10 pl-5 pt-10 pr-5'>
+        <div className='md:pt-32 md:pl-10 pl-5 pt-10 pr-5 pb-10'>
             <h2 className='text-3xl font-bold'>
               Css colors
             </h2>
@@ -14,8 +17,8 @@ const Page = () => {
              elements on a web page. CSS allows you to specify colors in different formats 
             to achieve the desired visual effect. Here are the common ways to represent 
             colors in CSS:   </div>
-            <div className="my-5">
-                  <ul>
+            <div className="my-5 md:w-[650px]">
+                  <ul className='flex flex-col gap-5'>
                      <li> <span className="font-bold">Named colors : </span> 
                      CSS provides a set of predefined color names that you can use directly without
                       specifying their hex or RGB values. 
@@ -46,49 +49,15 @@ const Page = () => {
                     
                   </ul>
                 </div>
-
-             <div className='mt-10'>
-                <h3>Result on the browser</h3>
-                <div>
-                {/* <Image className='border' src={res} alt='image layout'  width={400} height={400}/>  */}
+                <div className='my-5'>
+               <Image src={col} className='border' width={400} height={400} alt='info' />
              </div>
-                <p className='md:w-[650px] my-10'>
-                In this example, the controls attribute adds basic playback controls 
-                (play, pause, volume, etc.) to the audio player. The <span className="font-bold">source </span>
-                element is used to specify multiple audio file formats to provide
-                 compatibility across different browsers. The browser will automatically
-                 choose the supported format based on the browser's capabilities.
-                </p>
-
-                <h3 className='my-5'>The video tag </h3>
-                <p className='md:w-[650px] my-10'>
-                The <span className="font-bold">video </span> tag is used to embed video content, such as movies, video clips, 
-                  or video presentations, into a web page. It supports various video file formats, including MP4,
-                   WebM, and Ogg. Here's an example of how to use the <span className="font-bold">video </span> tag: 
-                </p>
-                <div>
-                {/* <Image src={fim} alt='image layout'  width={400} height={400}/>  */}
-             </div>
-             <h3>Result on the browser</h3>
-                <div>
-                {/* <Image className='border' src={vres} alt='image layout'  width={400} height={400}/>  */}
-             </div>
-             <p className="my-10 w-[650px]">
-             Similar to the <span className="font-bold">audio </span> tag, the controls attribute adds playback controls to the video player. The width and height attributes define the dimensions of the video player.
-
-Both the <span className="font-bold">audio </span> and <span className="font-bold">video </span> tags can have multiple <span className="font-bold">source </span> elements, allowing you to provide different file formats 
-to improve cross-browser compatibility.
- <br /> The browser will choose the first supported format from the list.
-
-If the browser does not support the <span className="font-bold">audio </span> or <span className="font-bold">video </span>tags or any of the specified formats, it will display the content inside the tags' fallback content. In the examples above, the fallback content is the message "Your browser does not support the audio/video element." This allows you to provide alternative content or instructions for users 
-   whose browsers don't support the audio or video features.
-             </p>
-             <h3>When the correct video name and extension available: </h3>
-                <div>
-                {/* <Image className='border' src={correct} alt='image layout'  width={400} height={400}/>  */}
+             <div className='my-5'>
+               <Image src={cool} className='border' width={400} height={400} alt='info' />
              </div>
 
-             </div>
+             <button className='border py-3 px-8'>Next</button>
+
         </div>
     </div>
   )

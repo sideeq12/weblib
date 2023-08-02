@@ -7,7 +7,7 @@ const Page = () => {
         <Maindrop />
         <div className='md:pt-32 md:pl-10 pl-5 pt-10 pr-5'>
             <h2 className='text-3xl font-bold'>
-               Audio and video tag in HTML 
+               Responsiveness
             </h2>
             <div className=' md:w-[650px] mt-10 text-sm md:text-base '>
             In HTML, the <span className="font-bold">audio </span> and 

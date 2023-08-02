@@ -1,5 +1,14 @@
 import React from 'react'
 import Maindrop from '@/components/Maindrop'
+import Image from 'next/image'
+import borde from './bord.png'
+import border from './border.png'
+import pad from './pad.png'
+import padc from './padc.png'
+import box from './boxes.png'
+import bo from './boxres.png'
+import mar from './mar.png'
+import margi from './margin.png'
 
 const Page = () => {
   return (
@@ -35,45 +44,41 @@ const Page = () => {
             
 
              <div className='mt-10'>
-                <h3>Let's take each one of the components and use it as example, starting with content and border</h3>
-                <div>
-                {/* <Image className='border' src={res} alt='image layout'  width={400} height={400}/>  */}
-             </div>
-                <p className='md:w-[650px] my-10'>
-                In this example, the controls attribute adds basic playback controls 
-                (play, pause, volume, etc.) to the audio player. The <span className="font-bold">source </span>
-                element is used to specify multiple audio file formats to provide
-                 compatibility across different browsers. The browser will automatically
-                 choose the supported format based on the browser's capabilities.
+                <h3>Let's take each one of the components and use it as example, starting border</h3>
+                <p>
+                  lets wrap our div element with border red with 1px in size 
+
+                <Image className='border mt-5' src={border} alt='image layout'  width={400} height={400}/> 
+                <Image className='border my-5' src={borde} alt='image layout'  width={400} height={400}/> 
+               
                 </p>
+            
+                <p className='md:w-[650px]'>
+                  next on the list is to implement the padding : The space between a box and its inner content
+                  in this case,  space between our text 'first box' and the border.
 
-                <h3 className='my-5'>The video tag </h3>
-                <p className='md:w-[650px] my-10'>
-                The <span className="font-bold">video </span> tag is used to embed video content, such as movies, video clips, 
-                  or video presentations, into a web page. It supports various video file formats, including MP4,
-                   WebM, and Ogg. Here's an example of how to use the <span className="font-bold">video </span> tag: 
+                <Image className='border mt-5' src={padc} alt='image layout'  width={400} height={400}/> 
+                <Image className='border my-5' src={pad} alt='image layout'  width={400} height={400}/> 
+               
                 </p>
-                <div>
-                {/* <Image src={fim} alt='image layout'  width={400} height={400}/>  */}
-             </div>
-             <h3>Result on the browser</h3>
-                <div>
-                {/* <Image className='border' src={vres} alt='image layout'  width={400} height={400}/>  */}
-             </div>
-             <p className="my-10 w-[650px]">
-             Similar to the <span className="font-bold">audio </span> tag, the controls attribute adds playback controls to the video player. The width and height attributes define the dimensions of the video player.
+                <p className='md:w-[650px]'>
+                  To implement margin , which is the space outside two box element, 
+                  let's firstly duplicate our box and place them beside each other, using flex box, (don't 
+                  about flex box at the moment, we would explain in the next chapter)
 
-Both the <span className="font-bold">audio </span> and <span className="font-bold">video </span> tags can have multiple <span className="font-bold">source </span> elements, allowing you to provide different file formats 
-to improve cross-browser compatibility.
- <br /> The browser will choose the first supported format from the list.
+                <Image className='border mt-5' src={box} alt='image layout'  width={400} height={400}/> 
+                <Image className='border my-5' src={bo} alt='image layout'  width={400} height={400}/> 
+               
+                </p>
+                <p className='md:w-[650px]'>
+                  finally, we can now put space in between by adding margin to either first block, second block,
+                  or both. In our case, we are going to add margin to only first  box
 
-If the browser does not support the <span className="font-bold">audio </span> or <span className="font-bold">video </span>tags or any of the specified formats, it will display the content inside the tags' fallback content. In the examples above, the fallback content is the message "Your browser does not support the audio/video element." This allows you to provide alternative content or instructions for users 
-   whose browsers don't support the audio or video features.
-             </p>
-             <h3>When the correct video name and extension available: </h3>
-                <div>
-                {/* <Image className='border' src={correct} alt='image layout'  width={400} height={400}/>  */}
-             </div>
+                <Image className='border mt-5' src={margi} alt='image layout'  width={400} height={400}/> 
+                <Image className='border my-5' src={mar} alt='image layout'  width={400} height={400}/> 
+               
+                </p>
+             
 
              </div>
         </div>

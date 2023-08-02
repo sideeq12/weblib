@@ -3,6 +3,8 @@ import Maindrop from '@/components/Maindrop'
 import Image from 'next/image'
 import familyout from './familyout.png'
 import family from './family.png'
+import size from './size.png'
+import sizeout from './sizeout.png'
 
 const Page = () => {
   return (
@@ -40,10 +42,10 @@ const Page = () => {
                   em, rem, percentages, etc. For example:
                 </p>
                 <div className='my-10'>
-                {/* <Image src={fim} alt='image layout'  width={400} height={400}/>  */}
+                <Image src={size} alt='image layout'  width={400} height={400}/> 
              </div>
              <div>
-                {/* <Image src={fim} className='border' alt='image layout'  width={400} height={400}/>  */}
+                <Image src={sizeout} className='border' alt='image layout'  width={400} height={400}/> 
              </div>
 
              <p className='md:my-10'>

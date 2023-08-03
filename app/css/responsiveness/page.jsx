@@ -3,6 +3,9 @@ import Maindrop from '@/components/Maindrop'
 import Image from 'next/image'
 import rflex from './rflex.png'
 import rflexout from './rflexout.png'
+import code from './code.png'
+import dxt from './dxt.png'
+import mb from './mobile.png'
 
 const Page = () => {
   return (
@@ -27,12 +30,21 @@ const Page = () => {
                <p>: Utilize CSS Flexbox to create flexible and 
                   responsive designs that can adjust the placement and sizing of elements based 
                   on the available space.</p>
-             <div>
+             <div className='my-5'>
                <Image src={rflex} width={400} height={400} />
              </div>
-               <Image src={rflexout} width={400} height={400} />
+               <Image src={rflexout} className='border' width={400} height={400} />
              </div>
-
+               <h3>Now let's wrap the content each as box by placing border around them</h3>
+               <p> we increase the content, so we can see how it shrinks 
+                  once it's larger width of the device</p>
+                  <div className='my-5'>
+               <Image src={code} width={400} height={400} />
+             </div>
+             Desktop view
+               <Image src={dxt} className='border my-5' width={400} height={400} />
+               Mobile view
+               <Image src={mb} className='border my-5' width={400} height={400} />
              <div className='mt-10 md:w-[650px]'>
                 <h3>CSS media queries</h3>
                <p>Media queries allow you to apply different CSS styles based on the characteristics of the user's 

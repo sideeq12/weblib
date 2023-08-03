@@ -4,12 +4,13 @@ import Image from 'next/image'
 import defa from './transdefault.png'
 import fad  from './gaf.gif'
 import cod from './codeg.png'
+import movec from './moveCode.png'
 
 const Page = () => {
   return (
 <div className='flex bg-white'>
         <Maindrop />
-        <div className='md:pt-32 md:pl-10 pl-5 pt-10 pr-5'>
+        <div className='md:pt-32 md:pl-10 pl-5 pb-10 pt-10 pr-5'>
             <h2 className='text-3xl font-bold'>
                CSS Transition Properties
             </h2>
@@ -42,12 +43,24 @@ const Page = () => {
                      <li> <span className="font-bold">delay : </span> Optional. The time to wait before starting the transition 
                      after the property change is triggered. Also specified in seconds (s) or milliseconds (ms)..</li>
                   </ul>
+
+                  <p className='my-5'>
+                  When you hover over the button, the background color will smoothly change 
+                  from blue to red over a period of 0.5 seconds, with an easing effect for a smoother transition. <br />
+                  ransitions are an essential part of creating engaging web experiences and can be combined with other CSS features like 
+                  animations and transformations to add even more interactivity and visual appeal to your web pages.
+                  </p>
                 </div>
                 <h3 className="font-semibold mb-5">Example</h3>
                 <div>
          <Image src={cod} width={400} height={400} />
             </div>  <div>
          <Image src={fad} width={400} height={400} className='border my-5' />
+            </div>
+
+            <h3>Now let's make button floating from left to right and right to left in cycle</h3>
+            <div>
+         <Image src={movec} width={400} height={400} />
             </div>
         </div>
     </div>

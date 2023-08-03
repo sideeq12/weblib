@@ -61,7 +61,7 @@ const Page = () => {
                 Design principles.</p>
                 <br />
                <Link className='border py-3 px-8 border-blue-500 text-blue-500  mt-10' 
-               href='https://getbootstrap.com/docs/5.3/getting-started/introduction/' >Get 
+               href='https://mui.com/material-ui/' >Get 
                started with Materialize</Link>
                </li>
                <li>
@@ -77,7 +77,7 @@ const Page = () => {
               </p>
               <br />
                <Link className='border py-3 px-8 border-blue-500 text-blue-500  mt-10' 
-               href='https://getbootstrap.com/docs/5.3/getting-started/introduction/' >Get 
+               href='https://tailwindcss.com/docs/installation' >Get 
                started with Tailwindcss</Link>
               </li>
                <li>
@@ -89,7 +89,7 @@ const Page = () => {
                customization.</p>
                <br />
                <Link className='border py-3 px-8 border-blue-500 text-blue-500  mt-10' 
-               href='https://getbootstrap.com/docs/5.3/getting-started/introduction/' >Get started 
+               href='https://semantic-ui.com/introduction/getting-started.html' >Get started 
                with Semantic UI</Link>
                </li>
                <li>
@@ -102,7 +102,7 @@ const Page = () => {
                 for quick and responsive web development.</p>
                 <br />
                <Link className='border py-3 px-8 border-blue-500 text-blue-500  mt-10' 
-               href='https://getbootstrap.com/docs/5.3/getting-started/introduction/' >Get started
+               href='https://bulma.io/documentation/overview/start/' >Get started
                 with Bulma</Link>
                 </li>
               </ul>

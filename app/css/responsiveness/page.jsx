@@ -6,6 +6,13 @@ import rflexout from './rflexout.png'
 import code from './code.png'
 import dxt from './dxt.png'
 import mb from './mobile.png'
+import mbb from './mbb.png'
+import wrap from './wrap.png'
+import pd from './padm.png'
+import pl from './pl.gif'
+import qrf from './query.png'
+import bas from './basic.png'
+
 
 const Page = () => {
   return (
@@ -46,16 +53,43 @@ const Page = () => {
                <Image src={dxt} className='border my-5' width={400} height={400} />
                Mobile view
                <Image src={mb} className='border my-5' width={400} height={400} />
+               <p> let's add flex-wrap to our parent container to make it responsive</p>
+                  <div className='my-5'>
+               <Image src={wrap} width={400} height={400} />
+             </div>
+             
+               <Image src={mbb} className='border my-5' width={400} height={400} />
+              Adding small space in between the flex-items (padding)
+               <Image src={pd} className='border my-5' width={400} height={400} />
              <div className='mt-10 md:w-[650px]'>
                 <h3>CSS media queries</h3>
                <p>Media queries allow you to apply different CSS styles based on the characteristics of the user's 
                   device, such as screen width, height, orientation, resolution, and more. This enables 
                   you to customize the layout and appearance of the page for different screen sizes. For example:</p>
-             {/* <div>
-               <Image src={} width={400} height={400} />
-             </div> */}
-               {/* <Image src={} width={400} height={400} /> */}
+                
+                <p>
+                  To use our media queries, we have to declare the width of the devices in unit we prefer,
+                  either in px, rem or em. For our example we are going to use px.
+                </p>
+             <p>
+               We are going to set a parent div of <code>width : 1200px</code> and three children div of 
+               <code>width : 400px</code>, let's see the output of this layout.
+             </p>
+             <div className='my-5'>
+               <Image src={qrf} width={400} height={400} />
              </div>
+             Destktop view : 
+               <Image src={bas} className='my-5 border' width={400} height={400} />
+             </div>
+             <p>
+               Now using the media queries, setting maximum width to : <code>900px </code>.
+               Once the screensize change to 900px or any size less than 900px, the flex direction would
+               change to vertical display.
+             </p>
+             <div className='my-5'>
+               <Image src={qrf} width={400} height={400} />
+             </div>
+               <Image src={pl} className='my-5' width={400} height={400} />
         </div>
     </div>
   )

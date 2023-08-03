@@ -1,6 +1,8 @@
 import React from 'react'
 import Maindrop from '@/components/Maindrop'
 import Image from 'next/image'
+import rflex from './rflex.png'
+import rflexout from './rflexout.png'
 
 const Page = () => {
   return (
@@ -25,10 +27,10 @@ const Page = () => {
                <p>: Utilize CSS Flexbox to create flexible and 
                   responsive designs that can adjust the placement and sizing of elements based 
                   on the available space.</p>
-             {/* <div>
-               <Image src={} width={400} height={400} />
-             </div> */}
-               {/* <Image src={} width={400} height={400} /> */}
+             <div>
+               <Image src={rflex} width={400} height={400} />
+             </div>
+               <Image src={rflexout} width={400} height={400} />
              </div>
 
              <div className='mt-10 md:w-[650px]'>

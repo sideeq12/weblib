@@ -10,16 +10,13 @@ const Page = () => {
                CSS Transition Properties
             </h2>
             <div className=' md:w-[650px] mt-10 text-sm md:text-base '>
-            In HTML, the <span className="font-bold">audio </span> and 
-             <span className="font-bold">video </span>
-               tags are used to embed audio and video content, respectively, into a web page.
-                These elements allow you to play multimedia files directly within the browser without 
-               requiring any third-party plugins.   </div>
+            Transitions are a way to create smooth and gradual animations between two states of an element. 
+            They allow you to define how a property changes over time when the state of an element
+             is altered, such as when it is hovered over, clicked, or dynamically modified through JavaScript.  </div>
              <div className=' md:w-[650px] my-10'>
-             The <span className="font-bold">audio </span> tag is used to embed audio content, such as music, sound effects, 
-               or podcasts, into a web page. It supports various audio file formats, including 
-               MP3, WAV, and Ogg.
-                Here's an example of how to use the <span className="font-bold">audio </span> tag:
+               With transitions, you can specify a starting state and an ending state 
+               for a particular CSS property, and the browser will automatically generate the animation 
+               between those two states. This creates a more engaging and visually appealing user experience.
              </div>
              <div>
                 {/* <Image src={full} alt='image layout'  width={400} height={400}/>  */}

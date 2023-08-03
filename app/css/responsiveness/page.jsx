@@ -22,9 +22,9 @@ const Page = () => {
 
              <div className='mt-10 md:w-[650px]'>
                 <h3>CSS Flex box</h3>
-               <p>Media queries allow you to apply different CSS styles based on the characteristics of the user's 
-                  device, such as screen width, height, orientation, resolution, and more. This enables 
-                  you to customize the layout and appearance of the page for different screen sizes. For example:</p>
+               <p>: Utilize CSS Flexbox to create flexible and 
+                  responsive designs that can adjust the placement and sizing of elements based 
+                  on the available space.</p>
              {/* <div>
                <Image src={} width={400} height={400} />
              </div> */}

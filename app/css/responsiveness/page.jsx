@@ -81,7 +81,7 @@ const Page = () => {
              Destktop view : 
                <Image src={bas} className='my-5 border' width={400} height={400} />
              </div>
-             <p>
+             <p className='md:w-[650px]'>
                Now using the media queries, setting maximum width to : <code>900px </code>.
                Once the screensize change to 900px or any size less than 900px, the flex direction would
                change to vertical display.

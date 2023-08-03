@@ -29,7 +29,8 @@ const Page = () => {
                 <h3>CSS Flex box</h3>
                <p>: Utilize CSS Flexbox to create flexible and 
                   responsive designs that can adjust the placement and sizing of elements based 
-                  on the available space.</p>
+                  on the available space.
+                  NB:By default, Flexbox arrange content horizontally. </p>
              <div className='my-5'>
                <Image src={rflex} width={400} height={400} />
              </div>

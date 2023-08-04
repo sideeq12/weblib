@@ -10,12 +10,16 @@ function Design() {
        Design resources
       </h2>
       <div className=' md:w-[650px] mt-10 text-sm md:text-base '>
-        Learning skills require checking several other teaching platform and track your progress coupled
-        with learning from them alongside, from the beginning of our chapters where started from the basic 
-        Html and completed CSS course chapters, the next language to learn is Javascript and this would boost your 
-        understanding on User interactions and Dynamic Content loading , before learning Frontend MVC frameworks like Reactjs, Angularjs or Vuejs.
-        <br />
-        Kindly check the resources below for Javascript and Frameworks courses.   </div>
+      Finding web design inspiration can involve exploring different websites,
+       design galleries, social media platforms, and online communities where designers
+        showcase their work. It can also involve studying design trends, color schemes, 
+      typography, layout styles, and user interface patterns.  </div>
+      <div className="text-sm my-5 md:w-[650px] text-blue-500">
+        NB : The goal of seeking web design inspiration is not to copy or replicate 
+        other designs but to spark creativity and gain insights into what works well in web design.
+         By examining and appreciating other designers' work, designers can develop their 
+        own unique ideas and solutions for creating engaging and user-friendly websites.
+      </div>
       <div className="my-5 md:w-[650px]">
             <ul className='flex flex-col gap-5'>
                <li> <span className="font-bold">Dribble : </span>
@@ -90,7 +94,6 @@ function Design() {
             </ul>
           </div>
 
-       <button className='border py-3 px-8'>Next</button>
 
   </div>
 </div>

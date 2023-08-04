@@ -22,7 +22,7 @@ function Design() {
                A well-known platform for designers to showcase their work, discover 
                other designers' work, and get inspired by a wide range of design projects. 
                 <span className='ml-3 font-semibold w-[100px] text-blue-500 text-sm flex gap-2 align-middle'>
-                    <Link href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>visit site
+                    <Link href='https://dribbble.com/following'>visit site
                     </Link><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
   <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
@@ -32,7 +32,7 @@ function Design() {
                Part of the Adobe family, Behance is another popular platform where designers
                 can showcase their portfolios and discover creative work from artists around the world.
                 <span className='ml-3 font-semibold w-[100px] text-blue-500 text-sm flex gap-2 align-middle'>
-                    <Link href='https://designmodo.com/'>visit site
+                    <Link href='https://www.behance.net/'>visit site
                     </Link><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
   <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
@@ -43,7 +43,7 @@ function Design() {
                 providing recognition and inspiration to designers pushing
                  the boundaries of creativity. 
                     <span className='ml-3 font-semibold w-[100px] text-blue-500 text-sm flex gap-2 align-middle'>
-                    <Link href='https://www.freecodecamp.org/news/tag/online-courses/'>visit site
+                    <Link href='https://www.awwwards.com/'>visit site
                     </Link><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
   <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
@@ -52,54 +52,36 @@ function Design() {
                A curated gallery of web design inspiration, 
                featuring well-designed and innovative websites across various industries.
                <span className='ml-3 font-semibold w-[100px] text-blue-500 text-sm flex gap-2 align-middle'>
-                    <Link href='https://javascript.info/'>visit site
+                    <Link href='https://www.siteinspire.com/'>visit site
                     </Link><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
   <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
 </svg></span></li>
-               <li> <span className="font-bold"> You don't know JS (Book series) : </span>
-               Authored by Kyle Simpson, this book series delves deep into the core concepts
-                of JavaScript, providing in-depth knowledge for experienced developers.
+               <li> <span className="font-bold"> CSSDA (css design awwards) : </span>
+               An awards platform that recognizes and showcases outstanding 
+               web design and development work.
                 <span className='ml-3 font-semibold w-[100px] text-blue-500 text-sm flex gap-2 align-middle'>
-                    <Link href='https://kbpsystem777.github.io/You-Dont-Know-JS/'>visit site
+                    <Link href='https://www.cssdesignawards.com/'>visit site
                     </Link><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
   <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
 </svg></span></li>
-               <li> <span className="font-bold"> Eloquent Javascript : </span>
-               This book by Marijn Haverbeke is widely regarded as an excellent 
-               resource for learning JavaScript, with a mix of theory, exercises,
-                and coding examples. 
-               For example, rgba(255, 0, 0, 0.5) represents semi-transparent red..
-               <span className='ml-3 font-semibold w-[100px] text-blue-500 text-sm flex gap-2 align-middle'>
-                    <Link href='https://eloquentjavascript.net/'>visit site
-                    </Link><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
-  <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
-</svg></span></li>
-               <li> <span className="font-bold">React Official Documentation : </span> 
-               The React.js official documentation is one of the best places to start learning React. 
-               It provides a comprehensive guide to the library, along with examples and explanations.
-               <span className='ml-3 font-semibold w-[100px] text-blue-500 text-sm flex gap-2 align-middle'>
-                    <Link href='https://legacy.reactjs.org/docs/getting-started.html'>visit site
-                    </Link><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
-  <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
-</svg></span></li>
-                <li> <span className="font-bold">React Fudamental on Egghead.io: </span> 
-                Egghead.io offers an in-depth and well-structured course on React.js fundamentals,
-                 taught by industry experts like Kent C. Dodds.
+            
+               
+                <li> <span className="font-bold">Webdesign Inspiration: </span>
+                A platform that showcases a wide variety of websites from different
+                 industries, helping designers find unique and creative ideas.
                  <span className='ml-3 font-semibold w-[100px] text-blue-500 text-sm flex gap-2 align-middle'>
-                    <Link href='https://egghead.io/'>visit site
+                    <Link href='https://bestdesignideas.com/'>visit site
                     </Link><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
   <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
 </svg></span></li>
-                 <li> <span className="font-bold">React for Beginners by Wesbos: </span> 
-                 Wes Bos is a popular web developer who offers a beginner-friendly React.js
-                  course that covers the basics and builds real-world projects.
+                 <li> <span className="font-bold">The Best Designs: </span> 
+                 A website gallery featuring top-quality website designs, 
+                 providing designers with a place to find fresh inspiration.
                   <span className='ml-3 font-semibold w-[100px] text-blue-500 text-sm flex gap-2 align-middle'>
-                    <Link href='https://wesbos.com/introducing-react-for-beginners'>visit site
+                    <Link href='http://www.thebestdesigns.com/'>visit site
                     </Link><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
   <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>

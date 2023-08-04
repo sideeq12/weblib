@@ -91,22 +91,22 @@ const Maindrop = () => {
             <Link className='hover:border-l-2 
             flex  pr-6 w-11/12 md:py-3 border border-slate-400 rounded-lg
              hover:border-black pl-6 cursor-pointer' 
-             href="/">Resources</Link>
+             href="/resources">Resources</Link>
 
             <Link className='hover:border-l-2 
             flex  pr-6 w-11/12 md:py-3 border border-slate-400 rounded-lg
              hover:border-black pl-6 cursor-pointer'  
-             href="/">Project List</Link>
+             href="/projects">Project List</Link>
 
             <Link  className='hover:border-l-2 
             flex  pr-6 w-11/12 md:py-3 border border-slate-400 rounded-lg
              hover:border-black pl-6 cursor-pointer' 
-            href="/">Design catalogue</Link>
+            href="/designs">Design catalogue</Link>
 
             <Link className='hover:border-l-2 
             flex  pr-6 w-11/12 md:py-3 border border-slate-400 rounded-lg
              hover:border-black pl-6 cursor-pointer' 
-             href="/">Ask a question</Link>
+             href="/questions">Ask a question</Link>
         </div> :
          <div className='pt-10 px-5 md:px-10 md:pt-16  bg-slate-100 ' onClick={setToOpen}>
           <span className='cursor-pointer'  >

@@ -20,7 +20,7 @@ function Footer() {
             <div>
               <div className='flex gap-3 font-semibold'>
                 <Image src={logo} width={35} height={35} alt='logo' />
-                <span className="-mb-8">Coachlib </span>
+                <span className="-mb-8 underline">Coachlib </span>
               </div>
             <div className='flex gap-5 mt-3'>
                 <Link href="/" ><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">

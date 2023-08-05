@@ -3,7 +3,8 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='bg-black px-10 py-10 md:px-20 md:py-20 flex gap-10 text-white h-96 w-full'>
+    <div className='bg-blue-900 px-10 py-10 md:px-20 md:py-20 flex gap-10
+     text-white h-96 w-full'>
         <div className='md:mr-10'>
             <ul>
                 <li>Resources</li>

@@ -6,9 +6,9 @@ import phone from "./phone.png"
 import Cards from "../components/overAll"
 import Review from "../components/Review"
 import Mission from "../components/mission"
-import Footer from "../components/footer"
+import logo from './small.png'
  
-const colors = [ "FFA41B", "E55807", "FF6000", "FC7300","FF8B13", "black"  ]
+const colors = [ "FFA41B", "E55807", "FF6000", "FC7300","FF8B13", "black" ]
 export default function Home() {
   return (
     <div className="bg-white overflow-hidden">
@@ -18,30 +18,31 @@ export default function Home() {
     <nav className=' py-3 md:py-6 
     flex justify-between 
     border-b-2 border-rail '>
-        <div className='font-bold  md:text-xl  text-orange-700'>
-          Logo 
+        <div className='font-semibold  md:text-lg  flex gap-2 align-bottom justify-end text-blue-300'>
+        <Image src={logo} width={35} height={35} alt='logo information'/>
+        Coachlib
         </div>
         <div className='flex flex-row text-sm'>
-          <div className='mr-2 md:mr-10  hover:text-orange-800'>
+          <div className='mr-2 md:mr-10  hover:text-blue-800'>
           <Link  href="/curriculum" >Curriculum</Link></div>
-          <div className='mr-2 md:mr-10  hover:text-orange-800'>
+          <div className='mr-2 md:mr-10  hover:text-blue-800'>
           <Link href="/resources" >Resources</Link>
           </div>
-         <div className=' hover:text-orange-800'>
+         <div className=' hover:text-blue-800'>
          <Link href="/learning" >Start Learning</Link>
          </div>
         </div>
        </nav>
     <div className='flex flex-col-reverse md:flex-row pt-14'>
         <div className='w-full md:w-2/4 flex flex-col'>
-          <h1 className='font-bold text-lg md:text-4xl '>
+          <h1 className='font-bold md:text-4xl'>
             Beyond Books: Uncover a Multitude of Resources for Learning and Entertainment
           </h1>
-          <p className='mt-3'>In this digital age, convenience is key. Whether you aspire to become a full-stack developer,
+          <p className='my-7'>In this digital age, convenience is key. Whether you aspire to become a full-stack developer,
              create innovative software applications, Join us today and embark on a path of endless 
              possibilities together</p>
-          <Link href="/overview" className='bg-rail px-6 py-3 w-fit mt-3 sm:text-sm text-base text-white
-          hover:bg-white hover:text-orange-600 hover:border hover:border-orange-600' >
+          <Link href="/overview" className='bg-blue-800 px-6 py-3 w-fit sm:text-sm text-base text-white
+          hover:bg-white hover:text-blue-500 hover:border hover:border-blue-500' >
             Start learning
           </Link>
         </div>

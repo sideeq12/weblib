@@ -10,7 +10,7 @@ const Mission = () => {
              in the digital world. We believe that accessible and comprehensive web education is crucial in today's technologically driven society. Our platform is dedicated to providing high-quality, interactive, 
             and practical learning experiences for aspiring web developers.</p>
 
-            <Link href="/" className='border px-6 py-3'>Start Learning</Link>
+            <Link href="/" className='border px-6 py-3 text-blue-800 border-blue-800 hover:text-white hover:bg-blue-800'>Start Learning</Link>
         </div>
     </div>
   )

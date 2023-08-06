@@ -18,7 +18,7 @@ function Footer() {
         </div>
         <div>
             <div>
-              <div className='flex gap-3 font-semibold'>
+              <div className='flex gap-3 font-semibold '>
                 <Image src={logo} width={35} height={35} alt='logo' />
                 <span className="-mb-8 underline">Coachlib </span>
               </div>

@@ -74,6 +74,7 @@ export default function Home() {
     <Cards />
     <Review />
     <Mission />
+    {/* footer removed */}
     </div>
   )
 }

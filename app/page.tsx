@@ -70,7 +70,7 @@ export default function Home() {
         </div>
     </div>
     </div>
-    {/* main data with  components */}
+    {/* main data with   components */}
     <Cards />
     <Review />
     <Mission />
